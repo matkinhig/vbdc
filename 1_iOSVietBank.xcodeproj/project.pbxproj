@@ -23,6 +23,7 @@
 		58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1823210CB400AD57B3 /* PinViewController.m */; };
 		58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1C23210CF100AD57B3 /* PatternViewController.m */; };
 		58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58C5B4FB2325E57A0034519D /* DataAccount.plist */; };
+		58C5B504232606370034519D /* DataAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C5B503232606370034519D /* DataAccountViewController.m */; };
 		58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6C81E2323524500069179 /* SMSPasswordViewController.m */; };
 		58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D751B62321FE560011E7F3 /* LoginPinViewController.m */; };
 		58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D751C0232232B00011E7F3 /* CardTableViewController.m */; };
@@ -75,6 +76,8 @@
 		58C21F1B23210CF100AD57B3 /* PatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternViewController.h; sourceTree = "<group>"; };
 		58C21F1C23210CF100AD57B3 /* PatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatternViewController.m; sourceTree = "<group>"; };
 		58C5B4FB2325E57A0034519D /* DataAccount.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataAccount.plist; sourceTree = "<group>"; };
+		58C5B502232606370034519D /* DataAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAccountViewController.h; sourceTree = "<group>"; };
+		58C5B503232606370034519D /* DataAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAccountViewController.m; sourceTree = "<group>"; };
 		58C6C81D2323524500069179 /* SMSPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSPasswordViewController.h; sourceTree = "<group>"; };
 		58C6C81E2323524500069179 /* SMSPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSPasswordViewController.m; sourceTree = "<group>"; };
 		58D751B52321FE560011E7F3 /* LoginPinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPinViewController.h; sourceTree = "<group>"; };
@@ -228,16 +231,10 @@
 		58C5B4FD2325F1FC0034519D /* AccountTableList */ = {
 			isa = PBXGroup;
 			children = (
-				58C5B4FE2325FFF50034519D /* New Group */,
+				58C5B502232606370034519D /* DataAccountViewController.h */,
+				58C5B503232606370034519D /* DataAccountViewController.m */,
 			);
 			path = AccountTableList;
-			sourceTree = "<group>";
-		};
-		58C5B4FE2325FFF50034519D /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 		58C6C81C2323511C00069179 /* SMSPassword */ = {
@@ -430,6 +427,7 @@
 			files = (
 				589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */,
 				587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */,
+				58C5B504232606370034519D /* DataAccountViewController.m in Sources */,
 				58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */,
 				58A470632319017C00AD90E2 /* ViewController.m in Sources */,
 				58A470602319017C00AD90E2 /* AppDelegate.m in Sources */,
