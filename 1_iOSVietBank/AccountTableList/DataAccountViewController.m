@@ -13,13 +13,17 @@
 #import "CustomAccountTableViewCell.h"
 #import "AccountDetail.h"
 #import "DetailAccount/ShowDetailScreen.h"
+#import "../Dashboard/DashBoardViewController.h"
+#import "../Dashboard/DarhBoardAccounts/DBAccountViewController.h"
 
 
 @interface DataAccountViewController ()
 {
     NSMutableArray * arrayAccountType;
     NSMutableArray * arrayAccountDetail;
+  
 }
+@property (strong,nonatomic) DBAccountViewController * dbView;
 @end
 
 @implementation DataAccountViewController
@@ -27,11 +31,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     arrayAccountType = [[AccountData shareData] arrAccount];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-//    self.navigationItem.rightBarButtonItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:@selector(editItem)];
+
     self.navigationItem.rightBarButtonItem =
     [[UIBarButtonItem alloc] initWithTitle:@"Edit"
                                      style:UIBarButtonItemStylePlain
@@ -57,13 +57,19 @@
     }
 }
 
+- (void) onBack {
+    _dbView = [self.storyboard instantiateViewControllerWithIdentifier:@"DBAccountView"];
+//    _pinView = [self.storyboard instantiateViewControllerWithIdentifier:@"PinUnlock"];
+    [self presentViewController:_dbView animated:YES completion:nil];
+}
+
 - (void)onEdit {
     if (self.tableView.editing) {
         [self.tableView setEditing:false animated:YES];
         self.navigationItem.leftBarButtonItem =
         [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemCancel
-                                                      target:nil
-                                                      action:nil];
+                                                      target:self
+                                                      action:@selector(onBack)];
         self.navigationItem.rightBarButtonItem =
         [[UIBarButtonItem alloc] initWithTitle:@"Edit"
                                          style:UIBarButtonItemStylePlain

@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    arrAccount = @[@"My test account 1", @"My test Account 2", @"My test Account 3"];
+    arrAccount = @[@"My test account 1", @"My test Account 2", @"My test Account 3", @"My test Account 4", @"My test Account 5", @"My test Account 6", @"My test Account 7", @"My test Account8"];
     // Do any additional setup after loading the view.
     
 //    self.title= @"Account";

@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587BBD562322676A007D14E7 /* AccountTableViewController.m */; };
+		5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886529E2328E48200E4BBC3 /* CitadInputScreen.m */; };
+		588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */; };
 		589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C3966231FBC90001D30E2 /* LoginIDController.m */; };
 		589C39982320C771001D30E2 /* LoginMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C39972320C771001D30E2 /* LoginMethodViewController.m */; };
 		589C39A22320E514001D30E2 /* CenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589C39A12320E514001D30E2 /* CenterView.xib */; };
@@ -35,6 +37,10 @@
 		58EEEBC02327F80D00200787 /* ShowDetailScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBBE2327F80D00200787 /* ShowDetailScreen.m */; };
 		58EEEBC12327F80D00200787 /* ShowDetailScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58EEEBBF2327F80D00200787 /* ShowDetailScreen.xib */; };
 		58EEEBC5232884A300200787 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBC4232884A300200787 /* DashBoardViewController.m */; };
+		58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBC82328AA7B00200787 /* DBAccountViewController.m */; };
+		58EEEBCF2328B0EE00200787 /* DBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBCE2328B0EE00200787 /* DBAccount.m */; };
+		58EEEBD42328B1FB00200787 /* DBAccountCustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBD32328B1FB00200787 /* DBAccountCustomCellTableViewCell.m */; };
+		58EEEBD72328D2D100200787 /* DataAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +63,10 @@
 /* Begin PBXFileReference section */
 		587BBD552322676A007D14E7 /* AccountTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTableViewController.h; sourceTree = "<group>"; };
 		587BBD562322676A007D14E7 /* AccountTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewController.m; sourceTree = "<group>"; };
+		5886529D2328E48200E4BBC3 /* CitadInputScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadInputScreen.h; sourceTree = "<group>"; };
+		5886529E2328E48200E4BBC3 /* CitadInputScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadInputScreen.m; sourceTree = "<group>"; };
+		588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadConfirmScreen.h; sourceTree = "<group>"; };
+		588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadConfirmScreen.m; sourceTree = "<group>"; };
 		589C3965231FBC90001D30E2 /* LoginIDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginIDController.h; sourceTree = "<group>"; };
 		589C3966231FBC90001D30E2 /* LoginIDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginIDController.m; sourceTree = "<group>"; };
 		589C39962320C771001D30E2 /* LoginMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginMethodViewController.h; sourceTree = "<group>"; };
@@ -108,6 +118,14 @@
 		58EEEBBF2327F80D00200787 /* ShowDetailScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowDetailScreen.xib; sourceTree = "<group>"; };
 		58EEEBC3232884A300200787 /* DashBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
 		58EEEBC4232884A300200787 /* DashBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
+		58EEEBC72328AA7B00200787 /* DBAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAccountViewController.h; sourceTree = "<group>"; };
+		58EEEBC82328AA7B00200787 /* DBAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAccountViewController.m; sourceTree = "<group>"; };
+		58EEEBCD2328B0EE00200787 /* DBAccount.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAccount.h; sourceTree = "<group>"; };
+		58EEEBCE2328B0EE00200787 /* DBAccount.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAccount.m; sourceTree = "<group>"; };
+		58EEEBD22328B1FB00200787 /* DBAccountCustomCellTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAccountCustomCellTableViewCell.h; sourceTree = "<group>"; };
+		58EEEBD32328B1FB00200787 /* DBAccountCustomCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAccountCustomCellTableViewCell.m; sourceTree = "<group>"; };
+		58EEEBD52328D2D100200787 /* DataAccountTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAccountTableViewController.h; sourceTree = "<group>"; };
+		58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAccountTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +167,17 @@
 			children = (
 			);
 			path = SendMoneyTableShort;
+			sourceTree = "<group>";
+		};
+		5886529C2328E45500E4BBC3 /* Transaction */ = {
+			isa = PBXGroup;
+			children = (
+				5886529D2328E48200E4BBC3 /* CitadInputScreen.h */,
+				5886529E2328E48200E4BBC3 /* CitadInputScreen.m */,
+				588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */,
+				588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */,
+			);
+			path = Transaction;
 			sourceTree = "<group>";
 		};
 		589C39952320C740001D30E2 /* LoginMethod */ = {
@@ -201,6 +230,9 @@
 		58A4705D2319017C00AD90E2 /* 1_iOSVietBank */ = {
 			isa = PBXGroup;
 			children = (
+				58A470642319017C00AD90E2 /* Main.storyboard */,
+				58A4706A2319017E00AD90E2 /* Assets.xcassets */,
+				5886529C2328E45500E4BBC3 /* Transaction */,
 				58EEEBC22328848700200787 /* Dashboard */,
 				58C5B4FD2325F1FC0034519D /* AccountTableList */,
 				58C5B4FA2325E5330034519D /* Data */,
@@ -217,8 +249,6 @@
 				589C39952320C740001D30E2 /* LoginMethod */,
 				58A470612319017C00AD90E2 /* ViewController.h */,
 				58A470622319017C00AD90E2 /* ViewController.m */,
-				58A470642319017C00AD90E2 /* Main.storyboard */,
-				58A4706A2319017E00AD90E2 /* Assets.xcassets */,
 				58A4706F2319017E00AD90E2 /* Info.plist */,
 				58D751C2232238320011E7F3 /* 1_iOSVietBank-Bridging-Header.h */,
 				58D751B32321FAF20011E7F3 /* SupportFile */,
@@ -341,10 +371,26 @@
 		58EEEBC22328848700200787 /* Dashboard */ = {
 			isa = PBXGroup;
 			children = (
+				58EEEBC62328AA5A00200787 /* DarhBoardAccounts */,
 				58EEEBC3232884A300200787 /* DashBoardViewController.h */,
 				58EEEBC4232884A300200787 /* DashBoardViewController.m */,
 			);
 			path = Dashboard;
+			sourceTree = "<group>";
+		};
+		58EEEBC62328AA5A00200787 /* DarhBoardAccounts */ = {
+			isa = PBXGroup;
+			children = (
+				58EEEBC72328AA7B00200787 /* DBAccountViewController.h */,
+				58EEEBC82328AA7B00200787 /* DBAccountViewController.m */,
+				58EEEBCD2328B0EE00200787 /* DBAccount.h */,
+				58EEEBCE2328B0EE00200787 /* DBAccount.m */,
+				58EEEBD22328B1FB00200787 /* DBAccountCustomCellTableViewCell.h */,
+				58EEEBD32328B1FB00200787 /* DBAccountCustomCellTableViewCell.m */,
+				58EEEBD52328D2D100200787 /* DataAccountTableViewController.h */,
+				58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */,
+			);
+			path = DarhBoardAccounts;
 			sourceTree = "<group>";
 		};
 		B518DB4454941A542B1C5A86 /* Frameworks */ = {
@@ -491,18 +537,24 @@
 				589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */,
 				587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */,
 				58EEEBC02327F80D00200787 /* ShowDetailScreen.m in Sources */,
+				5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */,
 				58C5B504232606370034519D /* DataAccountViewController.m in Sources */,
 				589CE15C23267EE100F36B99 /* AccountList.m in Sources */,
 				58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */,
 				58A470632319017C00AD90E2 /* ViewController.m in Sources */,
 				58EEEBBB23278C4800200787 /* AccountDetail.m in Sources */,
+				58EEEBD42328B1FB00200787 /* DBAccountCustomCellTableViewCell.m in Sources */,
+				588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */,
 				58A470602319017C00AD90E2 /* AppDelegate.m in Sources */,
+				58EEEBD72328D2D100200787 /* DataAccountTableViewController.m in Sources */,
+				58EEEBCF2328B0EE00200787 /* DBAccount.m in Sources */,
 				58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */,
 				589C39AC2320FC81001D30E2 /* UnlockMethodViewController.m in Sources */,
 				589C39982320C771001D30E2 /* LoginMethodViewController.m in Sources */,
 				58A470712319017E00AD90E2 /* main.m in Sources */,
 				58EEEBC5232884A300200787 /* DashBoardViewController.m in Sources */,
 				58A470692319017C00AD90E2 /* __iOSVietBank.xcdatamodeld in Sources */,
+				58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */,
 				58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */,
 				589C39A82320E57F001D30E2 /* CenterView.m in Sources */,
 				58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */,
