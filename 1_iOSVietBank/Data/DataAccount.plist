@@ -1,5 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<array/>
+<array>
+	<dict>
+		<key>typeaccount</key>
+		<string>default</string>
+		<key>listaccount</key>
+		<array>
+			<string>My test Account 1| 1200$|123456789</string>
+			<string>My test Account 2|2000$|91011121314</string>
+			<string>My test Account 3 | 3000$ | 999 888 666</string>
+			<string>My test Account 4 | 3400$ | 8989 9999 1234</string>
+		</array>
+	</dict>
+</array>
 </plist>

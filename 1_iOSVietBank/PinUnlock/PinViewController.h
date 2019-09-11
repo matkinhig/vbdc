@@ -19,6 +19,7 @@ NS_ASSUME_NONNULL_BEGIN
 }
 @property (strong, nonatomic) IBOutlet UITextField *lbOutPut;
 @property (nonatomic, assign) BOOL isSomethingEnabled;
+@property (strong, nonatomic) IBOutlet UIButton *btnDelete;
 
 - (IBAction)numberPress:(UIButton *)sender;
 @end

@@ -7,9 +7,11 @@
 //
 
 #import "UnlockMethodViewController.h"
+#import "../PinUnlock/PinViewController.h"
 
 @interface UnlockMethodViewController ()
-
+@property (strong,nonatomic)PinViewController * pinView ;
+@property (strong,nonatomic) PatternViewController * patternView;
 
 @end
 
@@ -45,15 +47,12 @@
 }
 - (IBAction)chuyenView:(id)sender {
     if(self.pageControl.currentPage == 0){
-        PinViewController * pinView = [[PinViewController alloc] initWithNibName:nil bundle:nil];
-        [self presentViewController:pinView animated:YES completion:nil];
-        NSLog(@"pin");
+       _pinView = [self.storyboard instantiateViewControllerWithIdentifier:@"PinUnlock"];
+        [self presentViewController:_pinView animated:YES completion:nil];
     }
     if (self.pageControl.currentPage == 1){
-        NSLog(@"pattern");
-        PatternViewController * patternView = [[PatternViewController alloc] init];
-        patternView.isSomethingEnabled = NO;
-        [self presentViewController:patternView animated:YES completion:nil];
+        _patternView = [self.storyboard instantiateViewControllerWithIdentifier:@"PatternUnlock"];
+        [self presentViewController:_patternView animated:YES completion:nil];
     }
 }
 

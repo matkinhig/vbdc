@@ -9,7 +9,7 @@
 #import "LoginPinViewController.h"
 
 @interface LoginPinViewController ()
-
+@property (strong, nonatomic) IBOutlet UIButton *btnDelete;
 @end
 
 @implementation LoginPinViewController
@@ -20,22 +20,22 @@
     operatorPressed = false;
     firstEntry = NULL;
     secondEntry = NULL;
+    _lbOutPut.enabled = NO;
 }
 - (IBAction)numberPress:(UIButton *)sender {
     int tag = sender.tag;
-    if (operatorPressed == FALSE) {
-        if (firstEntry == NULL) {
-            firstEntry = [NSString stringWithFormat:@"%i",tag];
-            _lbOutPut.text = firstEntry;
-        }
-        else {
-            firstEntry = [NSString stringWithFormat:@"%@%i",firstEntry,tag];
-            _lbOutPut.text = firstEntry;
-        }
+    if (firstEntry == NULL) {
+        firstEntry = [NSString stringWithFormat:@"%i",tag];
+        _lbOutPut.text = firstEntry;
     }
     else {
-        NSLog(@"Nothing");
+        firstEntry = [NSString stringWithFormat:@"%@%i",firstEntry,tag];
+        _lbOutPut.text = firstEntry;
     }
+}
+- (IBAction)deleteText:(id)sender {
+    firstEntry = NULL;
+    _lbOutPut.text = NULL;
 }
 
 @end
