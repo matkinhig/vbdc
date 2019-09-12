@@ -10,6 +10,11 @@
 		587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587BBD562322676A007D14E7 /* AccountTableViewController.m */; };
 		5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886529E2328E48200E4BBC3 /* CitadInputScreen.m */; };
 		588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */; };
+		589854AE232A67190008316A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589854AD232A67170008316A /* Assets.xcassets */; };
+		589854B2232A727A0008316A /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B1232A727A0008316A /* MenuView.m */; };
+		589854B6232A78FC0008316A /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B5232A78FC0008316A /* MapView.m */; };
+		589854BE232A85A60008316A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854BD232A85A50008316A /* SWRevealViewController.m */; };
+		589854C3232A89D00008316A /* ActivationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854C2232A89D00008316A /* ActivationView.m */; };
 		589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C3966231FBC90001D30E2 /* LoginIDController.m */; };
 		589C39982320C771001D30E2 /* LoginMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C39972320C771001D30E2 /* LoginMethodViewController.m */; };
 		589C39A22320E514001D30E2 /* CenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589C39A12320E514001D30E2 /* CenterView.xib */; };
@@ -22,7 +27,6 @@
 		58A470632319017C00AD90E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A470622319017C00AD90E2 /* ViewController.m */; };
 		58A470662319017C00AD90E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A470642319017C00AD90E2 /* Main.storyboard */; };
 		58A470692319017C00AD90E2 /* __iOSVietBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58A470672319017C00AD90E2 /* __iOSVietBank.xcdatamodeld */; };
-		58A4706B2319017E00AD90E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58A4706A2319017E00AD90E2 /* Assets.xcassets */; };
 		58A4706E2319017E00AD90E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A4706C2319017E00AD90E2 /* LaunchScreen.storyboard */; };
 		58A470712319017E00AD90E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A470702319017E00AD90E2 /* main.m */; };
 		58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1823210CB400AD57B3 /* PinViewController.m */; };
@@ -67,6 +71,19 @@
 		5886529E2328E48200E4BBC3 /* CitadInputScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadInputScreen.m; sourceTree = "<group>"; };
 		588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadConfirmScreen.h; sourceTree = "<group>"; };
 		588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadConfirmScreen.m; sourceTree = "<group>"; };
+		589854AD232A67170008316A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		589854B0232A727A0008316A /* MenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
+		589854B1232A727A0008316A /* MenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
+		589854B4232A78FC0008316A /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
+		589854B5232A78FC0008316A /* MapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MapView.m; sourceTree = "<group>"; };
+		589854B7232A855D0008316A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		589854B8232A855D0008316A /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		589854B9232A855D0008316A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		589854BA232A855E0008316A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		589854BC232A85A50008316A /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		589854BD232A85A50008316A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		589854C1232A89D00008316A /* ActivationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivationView.h; sourceTree = "<group>"; };
+		589854C2232A89D00008316A /* ActivationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivationView.m; sourceTree = "<group>"; };
 		589C3965231FBC90001D30E2 /* LoginIDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginIDController.h; sourceTree = "<group>"; };
 		589C3966231FBC90001D30E2 /* LoginIDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginIDController.m; sourceTree = "<group>"; };
 		589C39962320C771001D30E2 /* LoginMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginMethodViewController.h; sourceTree = "<group>"; };
@@ -89,7 +106,6 @@
 		58A470622319017C00AD90E2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		58A470652319017C00AD90E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		58A470682319017C00AD90E2 /* __iOSVietBank.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = __iOSVietBank.xcdatamodel; sourceTree = "<group>"; };
-		58A4706A2319017E00AD90E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58A4706D2319017E00AD90E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58A4706F2319017E00AD90E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		58A470702319017E00AD90E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -180,6 +196,42 @@
 			path = Transaction;
 			sourceTree = "<group>";
 		};
+		589854AF232A72610008316A /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				589854B0232A727A0008316A /* MenuView.h */,
+				589854B1232A727A0008316A /* MenuView.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		589854B3232A78E20008316A /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				589854B4232A78FC0008316A /* MapView.h */,
+				589854B5232A78FC0008316A /* MapView.m */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		589854BB232A85A50008316A /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				589854BC232A85A50008316A /* SWRevealViewController.h */,
+				589854BD232A85A50008316A /* SWRevealViewController.m */,
+			);
+			path = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		589854BF232A89AE0008316A /* Activation */ = {
+			isa = PBXGroup;
+			children = (
+				589854C1232A89D00008316A /* ActivationView.h */,
+				589854C2232A89D00008316A /* ActivationView.m */,
+			);
+			path = Activation;
+			sourceTree = "<group>";
+		};
 		589C39952320C740001D30E2 /* LoginMethod */ = {
 			isa = PBXGroup;
 			children = (
@@ -212,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				58A4705D2319017C00AD90E2 /* 1_iOSVietBank */,
+				589854BB232A85A50008316A /* SWRevealViewController */,
 				58A4705C2319017C00AD90E2 /* Products */,
 				B518DB4454941A542B1C5A86 /* Frameworks */,
 			);
@@ -230,12 +283,15 @@
 		58A4705D2319017C00AD90E2 /* 1_iOSVietBank */ = {
 			isa = PBXGroup;
 			children = (
+				589854AD232A67170008316A /* Assets.xcassets */,
 				58A470642319017C00AD90E2 /* Main.storyboard */,
-				58A4706A2319017E00AD90E2 /* Assets.xcassets */,
+				589854BF232A89AE0008316A /* Activation */,
+				589854AF232A72610008316A /* Menu */,
 				5886529C2328E45500E4BBC3 /* Transaction */,
 				58EEEBC22328848700200787 /* Dashboard */,
 				58C5B4FD2325F1FC0034519D /* AccountTableList */,
 				58C5B4FA2325E5330034519D /* Data */,
+				589854B3232A78E20008316A /* Map */,
 				58C6C81C2323511C00069179 /* SMSPassword */,
 				587BBD5423226740007D14E7 /* SendMoneyTableShort */,
 				587BBD5323226735007D14E7 /* AccountTableShort */,
@@ -396,6 +452,10 @@
 		B518DB4454941A542B1C5A86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				589854B7232A855D0008316A /* CoreGraphics.framework */,
+				589854BA232A855E0008316A /* Foundation.framework */,
+				589854B8232A855D0008316A /* MapKit.framework */,
+				589854B9232A855D0008316A /* UIKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -506,9 +566,9 @@
 			files = (
 				58A4706E2319017E00AD90E2 /* LaunchScreen.storyboard in Resources */,
 				58EEEBC12327F80D00200787 /* ShowDetailScreen.xib in Resources */,
-				58A4706B2319017E00AD90E2 /* Assets.xcassets in Resources */,
 				58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */,
 				58A470662319017C00AD90E2 /* Main.storyboard in Resources */,
+				589854AE232A67190008316A /* Assets.xcassets in Resources */,
 				589C39A22320E514001D30E2 /* CenterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -535,6 +595,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */,
+				589854B2232A727A0008316A /* MenuView.m in Sources */,
 				587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */,
 				58EEEBC02327F80D00200787 /* ShowDetailScreen.m in Sources */,
 				5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */,
@@ -552,10 +613,13 @@
 				589C39AC2320FC81001D30E2 /* UnlockMethodViewController.m in Sources */,
 				589C39982320C771001D30E2 /* LoginMethodViewController.m in Sources */,
 				58A470712319017E00AD90E2 /* main.m in Sources */,
+				589854B6232A78FC0008316A /* MapView.m in Sources */,
 				58EEEBC5232884A300200787 /* DashBoardViewController.m in Sources */,
 				58A470692319017C00AD90E2 /* __iOSVietBank.xcdatamodeld in Sources */,
 				58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */,
 				58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */,
+				589854C3232A89D00008316A /* ActivationView.m in Sources */,
+				589854BE232A85A60008316A /* SWRevealViewController.m in Sources */,
 				589C39A82320E57F001D30E2 /* CenterView.m in Sources */,
 				58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */,
 				58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */,

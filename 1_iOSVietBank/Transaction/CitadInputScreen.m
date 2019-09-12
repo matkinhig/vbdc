@@ -15,16 +15,46 @@
 
 @implementation CitadInputScreen
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    [self.view endEditing:YES];
+}
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
     self.tableView.delegate = self;
     self.tableView.dataSource = self;
     self.data = [[NSArray alloc]initWithObjects:@"CITAD", @"CK TRONG", @"CK NHANH", nil];
     self.tableView.hidden = true;
-}
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    [self.view endEditing:YES];
+    
+    
+    [self.btnBTN.layer setBorderWidth:1];
+    [self.btnBTN.layer setBorderColor:[[UIColor blackColor] CGColor]];
+    self.btnBTN.layer.cornerRadius = 5;
+    self.btnBTN.clipsToBounds = YES;
+    
+    [self.btnPaymentType.layer setBorderWidth:1];
+    [self.btnPaymentType.layer setBorderColor:[[UIColor blackColor] CGColor]];
+    self.btnPaymentType.layer.cornerRadius = 5;
+    self.btnPaymentType.clipsToBounds = YES;
+    
+    
+    [self.btnAccount.layer setBorderWidth:1];
+    [self.btnAccount.layer setBorderColor:[[UIColor blackColor] CGColor]];
+    self.btnAccount.layer.cornerRadius = 5;
+    self.btnAccount.clipsToBounds = YES;
+    
+    self.btnNumber.layer.cornerRadius = 5;
+    self.btnNumber.clipsToBounds = YES;
+    
+    self.txtCity.layer.cornerRadius =5;
+    
+    self.lbBankName.layer.cornerRadius = 5;
+    
+    self.txtBrandName.layer.cornerRadius = 5;
+    
+    self.txtOfficialName.layer.cornerRadius = 5;
+    
 }
 - (NSInteger) tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
     return 3;

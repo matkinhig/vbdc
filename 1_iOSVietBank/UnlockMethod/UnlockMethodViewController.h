@@ -12,11 +12,13 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface UnlockMethodViewController : UIViewController
-@property (weak, nonatomic) IBOutlet UIImageView *imgView;
+@interface UnlockMethodViewController : UIViewController <UIScrollViewDelegate>
+{
+    UIScrollView *scrollView;
+}
 @property (weak, nonatomic) IBOutlet UILabel *lbDetail;
 @property (weak, nonatomic) IBOutlet UILabel *lbDes;
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+
 @property (weak, nonatomic) IBOutlet UIButton *btnSelect;
 
 @end

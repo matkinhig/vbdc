@@ -18,7 +18,7 @@
     [super viewDidLoad];
     _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 60,self.view.frame.size.width, 450)];
     [self.view addSubview:_scrollView];
-    [_scrollView setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height*1.5)];
+    [_scrollView setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height)];
     [_scrollView addSubview:_imgAccount];
     [_scrollView addSubview:_lbAccount];
     [_scrollView addSubview:_lbVND];

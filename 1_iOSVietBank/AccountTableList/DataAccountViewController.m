@@ -106,7 +106,7 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     
-    static NSString *simpleTableIdentifier = @"SimpleTableCell";
+    
     AccountType * accountType = arrayAccountType[indexPath.section];
     AccountList * account = accountType.arrayAccount[indexPath.row];
     
