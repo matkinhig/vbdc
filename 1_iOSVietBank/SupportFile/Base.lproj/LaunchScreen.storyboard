@@ -18,26 +18,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-568h" translatesAutoresizingMaskIntoConstraints="NO" id="W5n-ha-0ke">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-568h" translatesAutoresizingMaskIntoConstraints="NO" id="W5n-ha-0ke">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright VietBank 2019. All rights reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WQ-pb-lqY">
-                                <rect key="frame" x="67" y="614" width="255" height="33"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <rect key="frame" x="53.5" y="607" width="268" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="vqR-6L-IYy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.090909890830516815" green="0.46637791395187378" blue="0.61434924602508545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="6WQ-pb-lqY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="594" id="Cg1-1c-H8l"/>
-                            <constraint firstItem="W5n-ha-0ke" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="QLg-eR-YS1"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6WQ-pb-lqY" secondAttribute="trailing" constant="53" id="WMo-G1-bwR"/>
-                            <constraint firstItem="W5n-ha-0ke" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="YFt-Fc-2Ks"/>
-                            <constraint firstAttribute="trailing" secondItem="W5n-ha-0ke" secondAttribute="trailing" id="j9Y-Jn-3Ho"/>
-                            <constraint firstItem="W5n-ha-0ke" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="kl5-FG-o61"/>
-                            <constraint firstItem="6WQ-pb-lqY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="67" id="oPG-lH-CXb"/>
-                            <constraint firstAttribute="bottom" secondItem="6WQ-pb-lqY" secondAttribute="bottom" constant="20" symbolic="YES" id="saQ-N6-idW"/>
+                            <constraint firstItem="W5n-ha-0ke" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7W1-bp-Xyz"/>
+                            <constraint firstItem="W5n-ha-0ke" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7pT-Zw-2cv"/>
+                            <constraint firstItem="W5n-ha-0ke" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8qK-E6-eGn"/>
+                            <constraint firstItem="W5n-ha-0ke" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Jwc-UP-hxt"/>
+                            <constraint firstItem="6WQ-pb-lqY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="L2E-c9-p0m"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6WQ-pb-lqY" secondAttribute="bottom" constant="20" id="vQe-Ez-RQU"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>

@@ -25,7 +25,7 @@
 }
 @property (strong, nonatomic) UIScrollView *scrollView;
 @property (strong, nonatomic) UIPageControl *pageControl;
-@property (strong,nonatomic)PinViewController * pinView ;
+@property (strong,nonatomic) PinViewController * pinView ;
 @property (strong,nonatomic) PatternViewController * patternView;
 
 @end
@@ -51,7 +51,7 @@
     // Do any additional setup after loading
     CGSize size = self.view.bounds.size;
     
-    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake((size.width - PHOTO_WIDTH) * 0.5,  120,PHOTO_WIDTH, PHOTO_HEIGHT*1.31)];
+    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake((size.width - PHOTO_WIDTH) * 0.5,  150,PHOTO_WIDTH, PHOTO_HEIGHT*1.31)];
     self.scrollView.delegate = self;
     self.scrollView.contentSize = CGSizeMake(PHOTO_WIDTH * NUM_PHOTO, PHOTO_HEIGHT * 1.31);
     self.scrollView.pagingEnabled = YES;

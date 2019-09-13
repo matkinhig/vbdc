@@ -7,9 +7,11 @@
 //
 
 #import "SMSPasswordViewController.h"
+#import "UnlockMethodViewController.h"
 
 @interface SMSPasswordViewController ()
-
+@property (strong, nonatomic) IBOutlet UITextField *txtPass;
+@property (weak,nonatomic) UnlockMethodViewController * unlockMethodVC;
 @end
 
 @implementation SMSPasswordViewController
@@ -22,15 +24,21 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)nextPage:(id)sender {
+    if ([_txtPass.text isEqualToString:@"112233"]) {
+        _unlockMethodVC = [self.storyboard instantiateViewControllerWithIdentifier:@"unlockViewController"];
+        [self presentViewController:_unlockMethodVC animated:YES completion:nil];
+    }
+    else {
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Lỗi" message:@"Mật khẩu OTP chưa chính xác, kiểm tra lại, bạn còn 3 lần nhập" preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            //button click event
+        }];
+        //        UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil];
+        [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
 }
-*/
 
 @end

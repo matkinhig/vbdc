@@ -42,18 +42,7 @@
     cell.textLabel.text = [NSString stringWithFormat:@"%@", arrAccount[indexPath.row]];
     cell.detailTextLabel.text = @"1000,00$";
     cell.imageView.image = [UIImage imageNamed:@"default_cards_missing_card_picture-default"];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator ;
     return cell;
 }
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 @end
