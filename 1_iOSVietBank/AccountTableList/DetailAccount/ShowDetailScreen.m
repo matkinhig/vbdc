@@ -7,13 +7,18 @@
 //
 
 #import "ShowDetailScreen.h"
+#import "ShowTransactionScreen.h"
+#import "UIViewController+LCModal.h"
+#import "../../Dashboard/DashBoardViewController.h"
+#import "../../Transaction/CitadInputScreen.h"
 
 @interface ShowDetailScreen ()
 @property (strong, nonatomic) IBOutlet UILabel *accountName;
 @property (strong, nonatomic) IBOutlet UILabel *accountNumber;
 @property (strong, nonatomic) IBOutlet UILabel *accountAmount;
 @property (strong, nonatomic) IBOutlet UILabel *amout;
-
+@property (strong,nonatomic) DashBoardViewController * DBView;
+@property (strong,nonatomic) CitadInputScreen * citadView;
 @end
 
 @implementation ShowDetailScreen
@@ -26,15 +31,13 @@
     self.accountAmount.text = self.stringAmount;
     self.amout.text = self.stringAmount;
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)sendMoney:(id)sender {
+   
 }
-*/
+- (IBAction)touchUpShow:(id)sender {
+   
+}
+
+
 
 @end

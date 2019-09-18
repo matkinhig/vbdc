@@ -7,8 +7,11 @@
 //
 
 #import "CitadConfirmScreen.h"
+#import "../AccountTableList/DetailAccount/UIViewController+LCModal.h"
+#import "CitadSignScreen.h"
 
-@interface CitadConfirmScreen ()
+
+@interface CitadConfirmScreen () <CitadSignScreen>
 
 @end
 
@@ -16,7 +19,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 60,self.view.frame.size.width, 450)];
+    _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 60,self.view.frame.size.width, self.view.frame.size.height - 200)];
     [self.view addSubview:_scrollView];
     [_scrollView setContentSize:CGSizeMake(self.view.frame.size.width, self.view.frame.size.height)];
     [_scrollView addSubview:_imgAccount];
@@ -42,6 +45,19 @@
     [_scrollView addSubview:_lbCategory];
     [_scrollView addSubview:_imgFolder];
     [_scrollView addSubview:_lbPickOne];
+}
+
+- (IBAction)showModal:(id)sender
+{
+    CitadSignScreen *controller = [self.storyboard instantiateViewControllerWithIdentifier:@"signScreen"];
+    controller.view.frame = CGRectMake(0, 0, self.view.frame.size.width ,250);
+    controller.delegate = self;
+    [self lc_presentViewController:controller completion:nil];
+}
+
+
+- (void)didPressedButtonInController:(CitadSignScreen *)controller {
+    [self lc_dismissViewControllerWithCompletion:nil];
 }
 
 

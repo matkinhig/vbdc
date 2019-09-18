@@ -24,13 +24,14 @@
 //    fromLabel.textAlignment = NSTextAlignmentLeft;
 //    fromLabel.text = @"Card";
 //    fromLabel.numberOfLines = 1;
-    arrCard = @[@"Test Card 1",@"Test Card 2"];
+    arrCard = @[@"DEBIT NFC on Acc 1",@"FORECAST FAILS"];
     
 //    self.title= @"Card";
     // Do any additional setup after loading the view.
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    self.tableView.scrollEnabled = NO;
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 2;
@@ -41,7 +42,6 @@
     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
     cell.textLabel.text = [NSString stringWithFormat:@"%@", arrCard[indexPath.row]];
     cell.imageView.image = [UIImage imageNamed:@"mastercard-default"];
-    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator ;
     return cell;
 }
 

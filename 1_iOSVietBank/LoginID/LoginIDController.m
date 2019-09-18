@@ -12,16 +12,19 @@
 @interface LoginIDController ()
 @property (weak, nonatomic) IBOutlet UITextField *txtLoginID;
 @property (weak, nonatomic) IBOutlet UIButton *btnNextID;
+@property (strong, nonatomic) IBOutlet UIView *viewInfo;
 @property (weak, nonatomic)  SMSPasswordViewController * smsOtpViewController;
-
+@property (nonatomic, assign) BOOL * isChange;
 
 @end
 
 @implementation LoginIDController
 
+
+
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title  = @"XINCHAO";
+    [self setIsChange:YES];
     // Do any additional
     self.btnNextID.enabled = true;
     self.txtLoginID.delegate = self;
@@ -64,6 +67,24 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [self.view endEditing:YES];
+}
+- (IBAction)infoAction:(id)sender {
+    
+    if (self.isChange) {
+        [self setIsChange:NO];
+        [UIView animateWithDuration:0.2 animations:^{
+            
+            self.viewInfo.frame = CGRectMake(0, self.view.frame.size.height - 100, self.view.frame.size.width, 50);
+        }];
+    }
+    else {
+        [self setIsChange:YES];
+        [UIView animateWithDuration:0.2 animations:^{
+            
+            self.viewInfo.frame = CGRectMake(0, self.view.frame.size.height - 150, self.view.frame.size.width, 110);
+        }];
+        
+    }
 }
 
 

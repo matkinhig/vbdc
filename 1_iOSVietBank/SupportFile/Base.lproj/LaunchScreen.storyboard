@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-568h" translatesAutoresizingMaskIntoConstraints="NO" id="W5n-ha-0ke">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Default-568h" translatesAutoresizingMaskIntoConstraints="NO" id="W5n-ha-0ke">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Copyright VietBank 2019. All rights reserved" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6WQ-pb-lqY">
@@ -32,7 +32,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.090909890830516815" green="0.46637791395187378" blue="0.61434924602508545" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="W5n-ha-0ke" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7W1-bp-Xyz"/>
+                            <constraint firstItem="W5n-ha-0ke" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="7W1-bp-Xyz"/>
                             <constraint firstItem="W5n-ha-0ke" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="7pT-Zw-2cv"/>
                             <constraint firstItem="W5n-ha-0ke" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="8qK-E6-eGn"/>
                             <constraint firstItem="W5n-ha-0ke" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Jwc-UP-hxt"/>

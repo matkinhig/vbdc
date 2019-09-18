@@ -9,6 +9,8 @@
 #import "DBAccount.h"
 #import "DBAccountCustomCellTableViewCell.h"
 
+#define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
 @interface DBAccount () <UITableViewDataSource , UITableViewDelegate>
 {
     NSArray * arrAccount;
@@ -26,6 +28,7 @@
     self.tableView.dataSource = self;
     self.tableView.delegate = self;
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
+    
 }
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 8;
@@ -36,12 +39,17 @@
     cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:@"Cell"];
     
     if (indexPath.row ==5 || indexPath.row ==6|| indexPath.row ==4 || indexPath.row == 7) {
-        cell.backgroundColor = [UIColor brownColor];
+        cell.backgroundColor = UIColorFromRGB(0x945200);
     }
+    else {
+        cell.backgroundColor = UIColorFromRGB(0x61E88B);
+    }
+    UIImageView *imageView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"money"]];
     
     cell.textLabel.text = [NSString stringWithFormat:@"%@", arrAccount[indexPath.row]];
     cell.detailTextLabel.text = @"1000,00$";
-    cell.imageView.image = [UIImage imageNamed:@"default_cards_missing_card_picture-default"];
+    cell.accessoryView = imageView;
+    
     return cell;
 }
 

@@ -13,7 +13,6 @@
 		587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587BBD562322676A007D14E7 /* AccountTableViewController.m */; };
 		5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886529E2328E48200E4BBC3 /* CitadInputScreen.m */; };
 		588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */; };
-		589854AE232A67190008316A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 589854AD232A67170008316A /* Assets.xcassets */; };
 		589854B2232A727A0008316A /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B1232A727A0008316A /* MenuView.m */; };
 		589854B6232A78FC0008316A /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B5232A78FC0008316A /* MapView.m */; };
 		589854BE232A85A60008316A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854BD232A85A50008316A /* SWRevealViewController.m */; };
@@ -38,22 +37,30 @@
 		58B7AD71232B37BD00DD1741 /* PatternManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD6A232B37BD00DD1741 /* PatternManager.m */; };
 		58B7AD72232B37BD00DD1741 /* NodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD6C232B37BD00DD1741 /* NodeView.m */; };
 		58B7AD75232B37ED00DD1741 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD73232B37ED00DD1741 /* Utils.m */; };
+		58B7AD7D232B858B00DD1741 /* UIViewController+LCModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */; };
+		58B7AD80232B86DA00DD1741 /* ShowTransactionScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD7F232B86DA00DD1741 /* ShowTransactionScreen.m */; };
 		58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1823210CB400AD57B3 /* PinViewController.m */; };
 		58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1C23210CF100AD57B3 /* PatternViewController.m */; };
 		58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58C5B4FB2325E57A0034519D /* DataAccount.plist */; };
 		58C5B504232606370034519D /* DataAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C5B503232606370034519D /* DataAccountViewController.m */; };
 		58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6C81E2323524500069179 /* SMSPasswordViewController.m */; };
+		58D48F53232C7C1E00407AE4 /* ShowDetailScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D48F52232C7C1E00407AE4 /* ShowDetailScreen.xib */; };
 		58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D751B62321FE560011E7F3 /* LoginPinViewController.m */; };
 		58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D751C0232232B00011E7F3 /* CardTableViewController.m */; };
+		58D8CFCE232BCE05008AC584 /* CitadSignScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D8CFCD232BCE05008AC584 /* CitadSignScreen.m */; };
+		58DCB2CA232F1F2800F63C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58DCB2C9232F1F2600F63C99 /* Assets.xcassets */; };
+		58E7DB5B2331BF85006495D4 /* CardListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E7DB5A2331BF85006495D4 /* CardListView.m */; };
+		58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E7DB5D2331DF74006495D4 /* CardDetailView.m */; };
+		58E7DB6123320767006495D4 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E7DB6023320767006495D4 /* CardCell.m */; };
 		58EEEBB7232754CE00200787 /* CustomAccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBB6232754CE00200787 /* CustomAccountTableViewCell.m */; };
 		58EEEBBB23278C4800200787 /* AccountDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBBA23278C4800200787 /* AccountDetail.m */; };
 		58EEEBC02327F80D00200787 /* ShowDetailScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBBE2327F80D00200787 /* ShowDetailScreen.m */; };
-		58EEEBC12327F80D00200787 /* ShowDetailScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58EEEBBF2327F80D00200787 /* ShowDetailScreen.xib */; };
 		58EEEBC5232884A300200787 /* DashBoardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBC4232884A300200787 /* DashBoardViewController.m */; };
 		58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBC82328AA7B00200787 /* DBAccountViewController.m */; };
 		58EEEBCF2328B0EE00200787 /* DBAccount.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBCE2328B0EE00200787 /* DBAccount.m */; };
 		58EEEBD42328B1FB00200787 /* DBAccountCustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBD32328B1FB00200787 /* DBAccountCustomCellTableViewCell.m */; };
 		58EEEBD72328D2D100200787 /* DataAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */; };
+		58F20EC3232F94DA0081B86D /* DBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F20EC2232F94DA0081B86D /* DBView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,7 +93,6 @@
 		5886529E2328E48200E4BBC3 /* CitadInputScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadInputScreen.m; sourceTree = "<group>"; };
 		588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadConfirmScreen.h; sourceTree = "<group>"; };
 		588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadConfirmScreen.m; sourceTree = "<group>"; };
-		589854AD232A67170008316A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		589854B0232A727A0008316A /* MenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
 		589854B1232A727A0008316A /* MenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 		589854B4232A78FC0008316A /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
@@ -138,6 +144,10 @@
 		58B7AD6D232B37BD00DD1741 /* PatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternView.h; sourceTree = "<group>"; };
 		58B7AD73232B37ED00DD1741 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		58B7AD74232B37ED00DD1741 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		58B7AD7B232B858B00DD1741 /* UIViewController+LCModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LCModal.h"; sourceTree = "<group>"; };
+		58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LCModal.m"; sourceTree = "<group>"; };
+		58B7AD7E232B86DA00DD1741 /* ShowTransactionScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTransactionScreen.h; sourceTree = "<group>"; };
+		58B7AD7F232B86DA00DD1741 /* ShowTransactionScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTransactionScreen.m; sourceTree = "<group>"; };
 		58C21F1723210CB400AD57B3 /* PinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
 		58C21F1823210CB400AD57B3 /* PinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinViewController.m; sourceTree = "<group>"; };
 		58C21F1B23210CF100AD57B3 /* PatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternViewController.h; sourceTree = "<group>"; };
@@ -147,18 +157,27 @@
 		58C5B503232606370034519D /* DataAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAccountViewController.m; sourceTree = "<group>"; };
 		58C6C81D2323524500069179 /* SMSPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSPasswordViewController.h; sourceTree = "<group>"; };
 		58C6C81E2323524500069179 /* SMSPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSPasswordViewController.m; sourceTree = "<group>"; };
+		58D48F52232C7C1E00407AE4 /* ShowDetailScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowDetailScreen.xib; sourceTree = "<group>"; };
 		58D751B52321FE560011E7F3 /* LoginPinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPinViewController.h; sourceTree = "<group>"; };
 		58D751B62321FE560011E7F3 /* LoginPinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginPinViewController.m; sourceTree = "<group>"; };
 		58D751BF232232B00011E7F3 /* CardTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTableViewController.h; sourceTree = "<group>"; };
 		58D751C0232232B00011E7F3 /* CardTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTableViewController.m; sourceTree = "<group>"; };
 		58D751C2232238320011E7F3 /* 1_iOSVietBank-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "1_iOSVietBank-Bridging-Header.h"; sourceTree = "<group>"; };
+		58D8CFCC232BCE05008AC584 /* CitadSignScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadSignScreen.h; sourceTree = "<group>"; };
+		58D8CFCD232BCE05008AC584 /* CitadSignScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadSignScreen.m; sourceTree = "<group>"; };
+		58DCB2C9232F1F2600F63C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		58E7DB592331BF85006495D4 /* CardListView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardListView.h; sourceTree = "<group>"; };
+		58E7DB5A2331BF85006495D4 /* CardListView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardListView.m; sourceTree = "<group>"; };
+		58E7DB5C2331DF74006495D4 /* CardDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardDetailView.h; sourceTree = "<group>"; };
+		58E7DB5D2331DF74006495D4 /* CardDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardDetailView.m; sourceTree = "<group>"; };
+		58E7DB5F23320767006495D4 /* CardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
+		58E7DB6023320767006495D4 /* CardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
 		58EEEBB5232754CE00200787 /* CustomAccountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAccountTableViewCell.h; sourceTree = "<group>"; };
 		58EEEBB6232754CE00200787 /* CustomAccountTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAccountTableViewCell.m; sourceTree = "<group>"; };
 		58EEEBB923278C4800200787 /* AccountDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountDetail.h; sourceTree = "<group>"; };
 		58EEEBBA23278C4800200787 /* AccountDetail.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountDetail.m; sourceTree = "<group>"; };
 		58EEEBBD2327F80D00200787 /* ShowDetailScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowDetailScreen.h; sourceTree = "<group>"; };
 		58EEEBBE2327F80D00200787 /* ShowDetailScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowDetailScreen.m; sourceTree = "<group>"; };
-		58EEEBBF2327F80D00200787 /* ShowDetailScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShowDetailScreen.xib; sourceTree = "<group>"; };
 		58EEEBC3232884A300200787 /* DashBoardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DashBoardViewController.h; sourceTree = "<group>"; };
 		58EEEBC4232884A300200787 /* DashBoardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DashBoardViewController.m; sourceTree = "<group>"; };
 		58EEEBC72328AA7B00200787 /* DBAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBAccountViewController.h; sourceTree = "<group>"; };
@@ -169,6 +188,8 @@
 		58EEEBD32328B1FB00200787 /* DBAccountCustomCellTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBAccountCustomCellTableViewCell.m; sourceTree = "<group>"; };
 		58EEEBD52328D2D100200787 /* DataAccountTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAccountTableViewController.h; sourceTree = "<group>"; };
 		58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAccountTableViewController.m; sourceTree = "<group>"; };
+		58F20EC1232F94DA0081B86D /* DBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBView.h; sourceTree = "<group>"; };
+		58F20EC2232F94DA0081B86D /* DBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -205,13 +226,6 @@
 			path = AccountTableShort;
 			sourceTree = "<group>";
 		};
-		587BBD5423226740007D14E7 /* SendMoneyTableShort */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SendMoneyTableShort;
-			sourceTree = "<group>";
-		};
 		5886529C2328E45500E4BBC3 /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
@@ -219,6 +233,8 @@
 				5886529E2328E48200E4BBC3 /* CitadInputScreen.m */,
 				588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */,
 				588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */,
+				58D8CFCC232BCE05008AC584 /* CitadSignScreen.h */,
+				58D8CFCD232BCE05008AC584 /* CitadSignScreen.m */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -316,8 +332,9 @@
 		58A4705D2319017C00AD90E2 /* 1_iOSVietBank */ = {
 			isa = PBXGroup;
 			children = (
-				589854AD232A67170008316A /* Assets.xcassets */,
+				58DCB2C9232F1F2600F63C99 /* Assets.xcassets */,
 				58A470642319017C00AD90E2 /* Main.storyboard */,
+				58E7DB582331BF24006495D4 /* Card */,
 				589854BF232A89AE0008316A /* Activation */,
 				589854AF232A72610008316A /* Menu */,
 				5886529C2328E45500E4BBC3 /* Transaction */,
@@ -326,7 +343,6 @@
 				58C5B4FA2325E5330034519D /* Data */,
 				589854B3232A78E20008316A /* Map */,
 				58C6C81C2323511C00069179 /* SMSPassword */,
-				587BBD5423226740007D14E7 /* SendMoneyTableShort */,
 				587BBD5323226735007D14E7 /* AccountTableShort */,
 				58D751B823221B920011E7F3 /* CardTableShort */,
 				58D751B42321FE3E0011E7F3 /* LoginPin */,
@@ -450,6 +466,19 @@
 			path = CardTableShort;
 			sourceTree = "<group>";
 		};
+		58E7DB582331BF24006495D4 /* Card */ = {
+			isa = PBXGroup;
+			children = (
+				58E7DB592331BF85006495D4 /* CardListView.h */,
+				58E7DB5A2331BF85006495D4 /* CardListView.m */,
+				58E7DB5C2331DF74006495D4 /* CardDetailView.h */,
+				58E7DB5D2331DF74006495D4 /* CardDetailView.m */,
+				58E7DB5F23320767006495D4 /* CardCell.h */,
+				58E7DB6023320767006495D4 /* CardCell.m */,
+			);
+			path = Card;
+			sourceTree = "<group>";
+		};
 		58EEEBB823278BE500200787 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -462,9 +491,13 @@
 		58EEEBBC2327F4DF00200787 /* DetailAccount */ = {
 			isa = PBXGroup;
 			children = (
+				58B7AD7B232B858B00DD1741 /* UIViewController+LCModal.h */,
+				58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */,
 				58EEEBBD2327F80D00200787 /* ShowDetailScreen.h */,
 				58EEEBBE2327F80D00200787 /* ShowDetailScreen.m */,
-				58EEEBBF2327F80D00200787 /* ShowDetailScreen.xib */,
+				58D48F52232C7C1E00407AE4 /* ShowDetailScreen.xib */,
+				58B7AD7E232B86DA00DD1741 /* ShowTransactionScreen.h */,
+				58B7AD7F232B86DA00DD1741 /* ShowTransactionScreen.m */,
 			);
 			path = DetailAccount;
 			sourceTree = "<group>";
@@ -490,6 +523,8 @@
 				58EEEBD32328B1FB00200787 /* DBAccountCustomCellTableViewCell.m */,
 				58EEEBD52328D2D100200787 /* DataAccountTableViewController.h */,
 				58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */,
+				58F20EC1232F94DA0081B86D /* DBView.h */,
+				58F20EC2232F94DA0081B86D /* DBView.m */,
 			);
 			path = DarhBoardAccounts;
 			sourceTree = "<group>";
@@ -610,10 +645,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				58A4706E2319017E00AD90E2 /* LaunchScreen.storyboard in Resources */,
-				58EEEBC12327F80D00200787 /* ShowDetailScreen.xib in Resources */,
+				58D48F53232C7C1E00407AE4 /* ShowDetailScreen.xib in Resources */,
 				58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */,
 				58A470662319017C00AD90E2 /* Main.storyboard in Resources */,
-				589854AE232A67190008316A /* Assets.xcassets in Resources */,
+				58DCB2CA232F1F2800F63C99 /* Assets.xcassets in Resources */,
 				589C39A22320E514001D30E2 /* CenterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -641,6 +676,7 @@
 			files = (
 				589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */,
 				589854B2232A727A0008316A /* MenuView.m in Sources */,
+				58B7AD7D232B858B00DD1741 /* UIViewController+LCModal.m in Sources */,
 				58728B02232A9E4700444D3A /* ColorViewController.m in Sources */,
 				587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */,
 				58728B04232A9E4700444D3A /* MenuViewController.m in Sources */,
@@ -648,14 +684,17 @@
 				5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */,
 				58B7AD63232B36CF00DD1741 /* PatternVController.m in Sources */,
 				58C5B504232606370034519D /* DataAccountViewController.m in Sources */,
+				58E7DB5B2331BF85006495D4 /* CardListView.m in Sources */,
 				589CE15C23267EE100F36B99 /* AccountList.m in Sources */,
 				58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */,
 				58A470632319017C00AD90E2 /* ViewController.m in Sources */,
 				58EEEBBB23278C4800200787 /* AccountDetail.m in Sources */,
+				58E7DB6123320767006495D4 /* CardCell.m in Sources */,
 				58EEEBD42328B1FB00200787 /* DBAccountCustomCellTableViewCell.m in Sources */,
 				588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */,
 				58A470602319017C00AD90E2 /* AppDelegate.m in Sources */,
 				58EEEBD72328D2D100200787 /* DataAccountTableViewController.m in Sources */,
+				58D8CFCE232BCE05008AC584 /* CitadSignScreen.m in Sources */,
 				58728B03232A9E4700444D3A /* MapViewController.m in Sources */,
 				58EEEBCF2328B0EE00200787 /* DBAccount.m in Sources */,
 				58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */,
@@ -666,10 +705,12 @@
 				58EEEBC5232884A300200787 /* DashBoardViewController.m in Sources */,
 				58A470692319017C00AD90E2 /* __iOSVietBank.xcdatamodeld in Sources */,
 				58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */,
+				58F20EC3232F94DA0081B86D /* DBView.m in Sources */,
 				58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */,
 				589854C3232A89D00008316A /* ActivationView.m in Sources */,
 				58B7AD70232B37BD00DD1741 /* PatternView.m in Sources */,
 				589854BE232A85A60008316A /* SWRevealViewController.m in Sources */,
+				58B7AD80232B86DA00DD1741 /* ShowTransactionScreen.m in Sources */,
 				589C39A82320E57F001D30E2 /* CenterView.m in Sources */,
 				58B7AD75232B37ED00DD1741 /* Utils.m in Sources */,
 				58B7AD72232B37BD00DD1741 /* NodeView.m in Sources */,
@@ -680,6 +721,7 @@
 				589CE15923267EC400F36B99 /* AccountData.m in Sources */,
 				589CE15F232697F300F36B99 /* AccountType.m in Sources */,
 				58B7AD6F232B37BD00DD1741 /* DrawingView.m in Sources */,
+				58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -857,6 +899,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSVietBank.igstudiovn.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "1_iOSVietBank/LoginPin/1_iOSVietBank-Bridging-Header.h";
@@ -879,6 +922,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSVietBank.igstudiovn.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "1_iOSVietBank/LoginPin/1_iOSVietBank-Bridging-Header.h";

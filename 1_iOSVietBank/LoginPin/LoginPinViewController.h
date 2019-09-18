@@ -17,8 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
     NSString * firstEntry;
     NSString * secondEntry;
 }
+@property (strong, nonatomic) IBOutlet UILabel *lbOutPut;
 
-@property (strong, nonatomic) IBOutlet UITextField *lbOutPut;
+
 @property (nonatomic, assign) BOOL isSomethingEnabled;
 
 - (IBAction)numberPress:(UIButton *)sender;

@@ -10,6 +10,7 @@
 
 @interface PinViewController ()
 @property (weak,nonatomic) UIViewController * loginView;
+@property (strong, nonatomic) NSString *myPickerValue;
 @end
 
 @implementation PinViewController
@@ -27,13 +28,15 @@
 //    int tag = sender.tag;
     if (firstEntry == NULL) {
         firstEntry = [NSString stringWithFormat:@"%i",(int)sender.tag];
-        _lbOutPut.text = firstEntry;
+        self.myPickerValue = firstEntry;
+        self.lbOutPut.text = [@"" stringByPaddingToLength: [self.myPickerValue length] withString: @"*" startingAtIndex:0];
         NSLog(@"%@", _lbOutPut.text);
     }
     else {
         firstEntry = [NSString stringWithFormat:@"%@%i",firstEntry,(int)sender.tag];
         _lbOutPut.text = firstEntry;
-        
+        self.myPickerValue = firstEntry;
+        self.lbOutPut.text = [@"" stringByPaddingToLength: [self.myPickerValue length] withString: @"*" startingAtIndex:0];
         NSLog(@"%@", _lbOutPut.text);
     }
 }
@@ -42,7 +45,7 @@
     _lbOutPut.text = NULL;
 }
 - (IBAction)confirmText:(id)sender {
-    if(self.lbOutPut == nil || [self.lbOutPut.text isEqualToString:@""]){
+    if(self.myPickerValue == nil || [self.myPickerValue isEqualToString:@""]){
         UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Lỗi" message:@"Không được bỏ trống PASSCODE" preferredStyle:UIAlertControllerStyleAlert];
         
         UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
@@ -52,7 +55,7 @@
         [alert addAction:ok];
         [self presentViewController:alert animated:YES completion:nil];
     }
-    if([_lbOutPut.text isEqualToString:@"0000"]) {
+    if([self.myPickerValue isEqualToString:@"0000"]) {
         _loginView = [self.storyboard instantiateViewControllerWithIdentifier:@"loginViewControllerID"];
         [self presentViewController:_loginView animated:YES completion:nil];
     }

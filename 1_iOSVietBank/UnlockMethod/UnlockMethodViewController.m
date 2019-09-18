@@ -51,7 +51,7 @@
     // Do any additional setup after loading
     CGSize size = self.view.bounds.size;
     
-    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake((size.width - PHOTO_WIDTH) * 0.5,  150,PHOTO_WIDTH, PHOTO_HEIGHT*1.31)];
+    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake((size.width - PHOTO_WIDTH) * 0.5,  100,PHOTO_WIDTH, PHOTO_HEIGHT*1.31)];
     self.scrollView.delegate = self;
     self.scrollView.contentSize = CGSizeMake(PHOTO_WIDTH * NUM_PHOTO, PHOTO_HEIGHT * 1.31);
     self.scrollView.pagingEnabled = YES;
@@ -67,8 +67,24 @@
             UIImage *image = [UIImage imageNamed:fileImageName];
             UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
             imageView.contentMode = UIViewContentModeScaleAspectFit;
-            imageView.frame = CGRectMake((i - 1) * PHOTO_WIDTH, 0, PHOTO_WIDTH, PHOTO_HEIGHT*1.31);
+            imageView.frame = CGRectMake((i - 1) * PHOTO_WIDTH, 0, PHOTO_WIDTH, PHOTO_HEIGHT);
             [self.scrollView addSubview:imageView];
+            
+            
+            
+            NSString * nameDetail = [NSString stringWithFormat:@"%@",arrayDetail[i-1]];
+            UILabel * labelDetail = [[UILabel alloc] initWithFrame:CGRectMake((i - 1) * PHOTO_WIDTH - 20,360, self.view.frame.size.width, 22)];
+             labelDetail.textAlignment =  NSTextAlignmentCenter;
+            labelDetail.text = nameDetail;
+            [self.scrollView addSubview:labelDetail];
+            
+            NSString * nameDescription = [NSString stringWithFormat:@"%@",arrayDes[i-1]];
+            UILabel * labelDescription = [[UILabel alloc] initWithFrame:CGRectMake((i - 1) * PHOTO_WIDTH - 20,380, self.view.frame.size.width, 22)];
+            labelDescription.textAlignment =  NSTextAlignmentCenter;
+            labelDescription.text = nameDescription;
+            [self.scrollView addSubview:labelDescription];
+            
+            NSLog(@"%f , %f ", self.view.frame.size.width ,  self.view.frame.size.height);
         }
     [self.view addSubview:self.scrollView];
     

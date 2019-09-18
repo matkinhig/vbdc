@@ -17,7 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
     NSString * firstEntry;
     NSString * secondEntry;
 }
-@property (strong, nonatomic) IBOutlet UITextField *lbOutPut;
+
+@property (strong, nonatomic) IBOutlet UILabel *lbOutPut;
+
 @property (nonatomic, assign) BOOL isSomethingEnabled;
 @property (strong, nonatomic) IBOutlet UIButton *btnDelete;
 

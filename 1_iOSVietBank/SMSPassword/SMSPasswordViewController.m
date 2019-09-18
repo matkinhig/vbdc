@@ -12,13 +12,16 @@
 @interface SMSPasswordViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *txtPass;
 @property (weak,nonatomic) UnlockMethodViewController * unlockMethodVC;
+@property (strong, nonatomic) IBOutlet UIView *viewInfo;
+@property (assign,nonatomic) BOOL * isChange;
 @end
 
 @implementation SMSPasswordViewController
 
 - (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view.
+[super viewDidLoad];
+// Do any additional setup after loading the view.
+[self setIsChange:YES];
 }
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
@@ -38,6 +41,23 @@
         //        UIAlertAction *cancel = [UIAlertAction actionWithTitle:@"Cancel" style:UIAlertActionStyleCancel handler:nil];
         [alert addAction:ok];
         [self presentViewController:alert animated:YES completion:nil];
+    }
+}
+- (IBAction)isOnOff:(id)sender {
+    if (self.isChange) {
+        [self setIsChange:NO];
+        [UIView animateWithDuration:0.2 animations:^{
+            
+            self.viewInfo.frame = CGRectMake(0, self.view.frame.size.height - 100, self.view.frame.size.width, 50);
+        }];
+    }
+    else {
+        [self setIsChange:YES];
+        [UIView animateWithDuration:0.2 animations:^{
+            
+            self.viewInfo.frame = CGRectMake(0, self.view.frame.size.height - 150, self.view.frame.size.width, 110);
+        }];
+        
     }
 }
 

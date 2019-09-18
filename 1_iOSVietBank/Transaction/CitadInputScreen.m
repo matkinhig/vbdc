@@ -8,9 +8,11 @@
 
 #import "CitadInputScreen.h"
 #import "../Dashboard/DashBoardViewController.h"
+#import "CitadConfirmScreen.h"
 
 @interface CitadInputScreen ()
 @property (strong,nonatomic) DashBoardViewController * DBView;
+@property (weak,nonatomic) CitadConfirmScreen * confirm;
 @end
 
 @implementation CitadInputScreen
@@ -86,15 +88,28 @@
     _DBView = [self.storyboard instantiateViewControllerWithIdentifier:@"DBoardView"];
     [self presentViewController:_DBView animated:YES completion:nil];
 }
+- (IBAction)confrimCitad:(id)sender {
+    if(self.lbTargetAccount == nil || [self.lbTargetAccount.text isEqualToString:@""] ||
+       self.btnNumber == nil || [self.btnNumber.text isEqualToString:@""] ||
+       self.txtCity == nil || [self.txtCity.text isEqualToString:@""] ||
+       self.lbNumber == nil || [self.lbNumber.text isEqualToString:@""] ||
+       self.lbBankName == nil || [self.lbBankName.text isEqualToString:@""] ||
+       self.txtBrandName == nil || [self.txtBrandName.text isEqualToString:@""] ||
+       self.txtOfficialName == nil || [self.txtOfficialName.text isEqualToString:@""]
+       ){
+        UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Lỗi" message:@"Không được bỏ trống các trường" preferredStyle:UIAlertControllerStyleAlert];
+        
+        UIAlertAction *ok = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+            //button click event
+        }];
+        [alert addAction:ok];
+        [self presentViewController:alert animated:YES completion:nil];
+    }
+    else {
+        _confirm = [self.storyboard instantiateViewControllerWithIdentifier:@"confirmScreen"];
+        [self presentViewController:_confirm animated:YES completion:nil];
+    }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
 }
-*/
 
 @end
