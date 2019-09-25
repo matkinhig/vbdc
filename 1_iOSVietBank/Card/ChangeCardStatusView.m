@@ -146,4 +146,10 @@
     isChange1 = TRUE;
 }
 
+- (IBAction)dismissView:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+
+
 @end

@@ -26,6 +26,9 @@
     
     
 }
+- (IBAction)dissmissView:(id)sender {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
 
 
 

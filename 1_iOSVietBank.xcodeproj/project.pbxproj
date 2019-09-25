@@ -10,6 +10,8 @@
 		580021B123385F5A00194F1D /* TemplateTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 580021B023385F5A00194F1D /* TemplateTableView.m */; };
 		581CFFBE233B016C0024AB0C /* CitadInpudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFBD233B016C0024AB0C /* CitadInpudView.m */; };
 		581CFFC1233B06B90024AB0C /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFC0233B06B90024AB0C /* DetailView.m */; };
+		581CFFC4233B40E80024AB0C /* ChangeCardLimitSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFC3233B40E80024AB0C /* ChangeCardLimitSignView.m */; };
+		581CFFC7233B48020024AB0C /* ChangeCardStatusSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFC6233B48020024AB0C /* ChangeCardStatusSignView.m */; };
 		5838081E233371CC00A5E4DD /* SignCardStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5838081D233371CC00A5E4DD /* SignCardStatusView.m */; };
 		583808212333842000A5E4DD /* ChangeCardPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583808202333842000A5E4DD /* ChangeCardPinView.m */; };
 		58380824233385E800A5E4DD /* NewPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58380823233385E800A5E4DD /* NewPinView.m */; };
@@ -97,6 +99,10 @@
 		581CFFBD233B016C0024AB0C /* CitadInpudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadInpudView.m; sourceTree = "<group>"; };
 		581CFFBF233B06B90024AB0C /* DetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
 		581CFFC0233B06B90024AB0C /* DetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		581CFFC2233B40E80024AB0C /* ChangeCardLimitSignView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardLimitSignView.h; sourceTree = "<group>"; };
+		581CFFC3233B40E80024AB0C /* ChangeCardLimitSignView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardLimitSignView.m; sourceTree = "<group>"; };
+		581CFFC5233B48020024AB0C /* ChangeCardStatusSignView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardStatusSignView.h; sourceTree = "<group>"; };
+		581CFFC6233B48020024AB0C /* ChangeCardStatusSignView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardStatusSignView.m; sourceTree = "<group>"; };
 		5838081C233371CC00A5E4DD /* SignCardStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignCardStatusView.h; sourceTree = "<group>"; };
 		5838081D233371CC00A5E4DD /* SignCardStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignCardStatusView.m; sourceTree = "<group>"; };
 		5838081F2333842000A5E4DD /* ChangeCardPinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardPinView.h; sourceTree = "<group>"; };
@@ -523,6 +529,10 @@
 				580021B023385F5A00194F1D /* TemplateTableView.m */,
 				58ACE9782338B2A900747B76 /* ChangeCardLimitCodeView.h */,
 				58ACE9792338B2A900747B76 /* ChangeCardLimitCodeView.m */,
+				581CFFC2233B40E80024AB0C /* ChangeCardLimitSignView.h */,
+				581CFFC3233B40E80024AB0C /* ChangeCardLimitSignView.m */,
+				581CFFC5233B48020024AB0C /* ChangeCardStatusSignView.h */,
+				581CFFC6233B48020024AB0C /* ChangeCardStatusSignView.m */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -753,6 +763,7 @@
 				58EEEBCF2328B0EE00200787 /* DBAccount.m in Sources */,
 				58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */,
 				589C39AC2320FC81001D30E2 /* UnlockMethodViewController.m in Sources */,
+				581CFFC7233B48020024AB0C /* ChangeCardStatusSignView.m in Sources */,
 				589C39982320C771001D30E2 /* LoginMethodViewController.m in Sources */,
 				58A470712319017E00AD90E2 /* main.m in Sources */,
 				589854B6232A78FC0008316A /* MapView.m in Sources */,
@@ -763,6 +774,7 @@
 				58F20EC3232F94DA0081B86D /* DBView.m in Sources */,
 				5838081E233371CC00A5E4DD /* SignCardStatusView.m in Sources */,
 				58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */,
+				581CFFC4233B40E80024AB0C /* ChangeCardLimitSignView.m in Sources */,
 				589854C3232A89D00008316A /* ActivationView.m in Sources */,
 				58B7AD70232B37BD00DD1741 /* PatternView.m in Sources */,
 				589854BE232A85A60008316A /* SWRevealViewController.m in Sources */,

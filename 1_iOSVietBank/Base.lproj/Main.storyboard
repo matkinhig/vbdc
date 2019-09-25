@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zZB-Ph-QgF">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Yue-Hx-Off">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -454,7 +454,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="TemplateTableView" id="S9y-LL-dJm" customClass="TemplateTableView" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="scrollableAxes" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" id="It3-12-tAf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="450"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="485"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" misplaced="YES" id="QOY-cy-oqT">
@@ -475,7 +475,7 @@
                                     </constraints>
                                     <state key="normal" image="icons8-long-arrow-left-100"/>
                                     <connections>
-                                        <segue destination="Yue-Hx-Off" kind="show" id="GgL-iN-pfC"/>
+                                        <action selector="dismissView:" destination="S9y-LL-dJm" eventType="touchUpInside" id="uqd-ti-8b7"/>
                                     </connections>
                                 </button>
                             </subviews>
@@ -712,10 +712,10 @@
                                                         </label>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YvD-bC-gQg">
                                                             <rect key="frame" x="0.0" y="789" width="414" height="30"/>
-                                                            <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="bhC-oq-ZAU"/>
                                                             </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                             <state key="normal" title="CHANGE PIN">
                                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
@@ -726,10 +726,10 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4rQ-wy-Qii">
                                                             <rect key="frame" x="0.0" y="821" width="414" height="30"/>
-                                                            <color key="backgroundColor" red="1" green="0.83234566450000003" blue="0.47320586440000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="fDY-r4-JE3"/>
                                                             </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                             <state key="normal" title="SHOW CARD NUMBER AND CVC">
                                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
@@ -739,10 +739,10 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ua5-28-Gcj">
                                                             <rect key="frame" x="0.0" y="853" width="414" height="30"/>
-                                                            <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="wem-ll-DKM"/>
                                                             </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                             <state key="normal" title="SHOW BLOCKED TRANSACTIONS">
                                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
@@ -752,10 +752,10 @@
                                                         </button>
                                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vjK-1c-8hx">
                                                             <rect key="frame" x="0.0" y="885" width="414" height="30"/>
-                                                            <color key="backgroundColor" red="0.83216959239999999" green="0.98548370600000001" blue="0.47333085539999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="30" id="OWu-IV-w9M"/>
                                                             </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                             <state key="normal" title="SHOW RELATED ACCOUNT">
                                                                 <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             </state>
@@ -764,7 +764,7 @@
                                                             </connections>
                                                         </button>
                                                     </subviews>
-                                                    <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                     <constraints>
                                                         <constraint firstItem="RIh-y7-xN0" firstAttribute="height" secondItem="Yei-f5-YeO" secondAttribute="height" id="0AE-tf-dNl"/>
                                                         <constraint firstAttribute="trailing" secondItem="4rQ-wy-Qii" secondAttribute="trailing" id="0gY-7Q-Moh"/>
@@ -1473,7 +1473,7 @@
                             <outlet property="delegate" destination="S9y-LL-dJm" id="uXo-cs-OtC"/>
                         </connections>
                     </tableView>
-                    <size key="freeformSize" width="414" height="450"/>
+                    <size key="freeformSize" width="414" height="485"/>
                     <connections>
                         <outlet property="cell1" destination="bFi-ci-HUD" id="5fi-RT-tWP"/>
                         <outlet property="contentViewTable" destination="MJs-4b-DnK" id="w6u-ND-EZe"/>
@@ -1483,7 +1483,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cQm-XN-XSB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7378" y="203"/>
+            <point key="canvasLocation" x="6912" y="-196"/>
         </scene>
         <!--Pin View Controller-->
         <scene sceneID="ufE-MJ-hNB">
@@ -1828,7 +1828,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pBV-7I-sVe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3733" y="-1326"/>
+            <point key="canvasLocation" x="2570" y="-1096"/>
         </scene>
         <!--Dash Board View Controller-->
         <scene sceneID="VFs-NM-iFL">
@@ -2031,7 +2031,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ObN-Fl-Ik5" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5290" y="-528"/>
+            <point key="canvasLocation" x="4390" y="-1273"/>
         </scene>
         <!--Card List View-->
         <scene sceneID="lAy-Pi-YcE">
@@ -2124,7 +2124,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bu1-vh-Cpk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6012" y="329"/>
+            <point key="canvasLocation" x="5706" y="-196"/>
         </scene>
         <!--Card Detail View-->
         <scene sceneID="0tW-zc-OwS">
@@ -2598,7 +2598,7 @@
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
                                         <connections>
                                             <action selector="changePin:" destination="PrH-Y7-Tbw" eventType="touchUpInside" id="6T7-pD-ins"/>
-                                            <segue destination="S9y-LL-dJm" kind="show" id="wV8-jm-3BM"/>
+                                            <action selector="dismissView:" destination="hmv-rP-PUA" eventType="touchUpInside" id="QDs-EX-xhm"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2828,7 +2828,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xXU-D8-TFd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8321.7391304347839" y="-312.22826086956525"/>
+            <point key="canvasLocation" x="7972" y="-250"/>
         </scene>
         <!--Change Card Pin View-->
         <scene sceneID="tSK-7z-XbC">
@@ -2856,7 +2856,7 @@
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
                                         <connections>
                                             <action selector="changePin:" destination="PrH-Y7-Tbw" eventType="touchUpInside" id="yeR-cU-WpB"/>
-                                            <segue destination="S9y-LL-dJm" kind="show" id="pzQ-LB-fj9"/>
+                                            <action selector="dissmissView:" destination="UYZ-Bw-nUM" eventType="touchUpInside" id="HCK-ID-LIT"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -3002,7 +3002,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="showModal:" destination="YFc-yU-gzd" eventType="touchUpInside" id="h9m-Vt-OPW"/>
                                     <segue destination="gJn-Mg-tiY" kind="show" id="Olq-BH-SKb"/>
                                 </connections>
                             </button>
@@ -3030,12 +3029,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4qw-eO-21h" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9143" y="571"/>
+            <point key="canvasLocation" x="8974" y="695"/>
         </scene>
-        <!--View Controller-->
+        <!--Change Card Status Sign View-->
         <scene sceneID="1hQ-e3-bg9">
             <objects>
-                <viewController id="EXl-qp-aXz" sceneMemberID="viewController">
+                <viewController id="EXl-qp-aXz" customClass="ChangeCardStatusSignView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FbS-5p-CUN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3058,7 +3057,7 @@
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
                                         <connections>
                                             <action selector="changePin:" destination="PrH-Y7-Tbw" eventType="touchUpInside" id="fD5-fk-Cfq"/>
-                                            <segue destination="hmv-rP-PUA" kind="show" id="B3F-nd-pwY"/>
+                                            <action selector="dismissView:" destination="EXl-qp-aXz" eventType="touchUpInside" id="cEU-5e-7pq"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -4205,7 +4204,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sVD-C1-0kk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4393" y="-1326"/>
+            <point key="canvasLocation" x="3230" y="-1096"/>
         </scene>
         <!--Account-->
         <scene sceneID="V3x-zr-7Jp">
@@ -5537,7 +5536,7 @@
                                         </constraints>
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
                                         <connections>
-                                            <segue destination="UYZ-Bw-nUM" kind="show" id="5fl-cA-lMf"/>
+                                            <action selector="dismissView:" destination="YHa-Rd-to6" eventType="touchUpInside" id="esB-tZ-CRe"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -5755,6 +5754,9 @@
                                 <state key="normal" title="OK">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <action selector="dismissView:" destination="YHa-Rd-to6" eventType="touchUpInside" id="K3H-Mi-AWI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pFu-wM-mWC">
                                 <rect key="frame" x="107" y="115" width="200" height="21"/>
@@ -5824,7 +5826,7 @@
                                         </constraints>
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
                                         <connections>
-                                            <segue destination="UYZ-Bw-nUM" kind="show" id="oSU-ca-Xme"/>
+                                            <action selector="dismissView:" destination="T2d-0B-IZr" eventType="touchUpInside" id="Eb5-Mn-dbb"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -6043,6 +6045,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
+                                    <action selector="dismissView:" destination="T2d-0B-IZr" eventType="touchUpInside" id="XP6-dM-Rzu"/>
                                     <action selector="oke:" destination="T2d-0B-IZr" eventType="touchUpInside" id="sp7-PR-3ut"/>
                                 </connections>
                             </button>
@@ -6220,7 +6223,7 @@
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
                                         <connections>
                                             <action selector="changePin:" destination="PrH-Y7-Tbw" eventType="touchUpInside" id="BJz-pW-PG3"/>
-                                            <segue destination="S9y-LL-dJm" kind="show" id="Su7-Y7-tA2"/>
+                                            <action selector="dismissView:" destination="E82-vD-DyF" eventType="touchUpInside" id="7Lz-5u-YmK"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -6460,12 +6463,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="LBc-KL-Vvh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9228.9855072463779" y="2018.4782608695655"/>
+            <point key="canvasLocation" x="9083" y="1985"/>
         </scene>
-        <!--View Controller-->
+        <!--Change Card Limit Sign View-->
         <scene sceneID="4G1-VD-UGL">
             <objects>
-                <viewController id="Ilt-6L-gbZ" sceneMemberID="viewController">
+                <viewController id="Ilt-6L-gbZ" customClass="ChangeCardLimitSignView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="kml-Oh-T0i">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -6487,7 +6490,7 @@
                                         </constraints>
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
                                         <connections>
-                                            <action selector="changePin:" destination="PrH-Y7-Tbw" eventType="touchUpInside" id="4Op-OE-YFD"/>
+                                            <action selector="dismissView:" destination="Ilt-6L-gbZ" eventType="touchUpInside" id="phf-r2-eBs"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -6637,7 +6640,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="emg-jE-7Dl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10136.231884057972" y="2017.663043478261"/>
+            <point key="canvasLocation" x="10136" y="2005"/>
         </scene>
         <!--Change Card Limit Code View-->
         <scene sceneID="rrc-dU-8sE">
@@ -6663,6 +6666,9 @@
                                             <constraint firstAttribute="height" constant="22" id="CDF-FJ-e5V"/>
                                         </constraints>
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
+                                        <connections>
+                                            <action selector="dismissView:" destination="gI3-ka-awh" eventType="touchUpInside" id="1gU-jV-IPq"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1156909689" green="0.29523736239999998" blue="0.44066023830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -6691,9 +6697,6 @@
                                             <constraint firstAttribute="width" constant="24" id="9ac-N0-u6X"/>
                                         </constraints>
                                         <state key="normal" title="Button" image="field_backspace_gray-default"/>
-                                        <connections>
-                                            <action selector="deletePin:" destination="gI3-ka-awh" eventType="touchUpInside" id="N6u-rU-k8M"/>
-                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="__________________________________" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PTr-d0-eQw">
                                         <rect key="frame" x="40" y="19" width="246" height="21"/>
@@ -6723,9 +6726,6 @@
                                         <state key="normal" title="1">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="vBp-zu-lIW"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FX7-gM-3mz">
                                         <rect key="frame" x="139.66666666666666" y="10.000000000000007" width="114.66666666666666" height="114.66666666666669"/>
@@ -6733,9 +6733,6 @@
                                         <state key="normal" title="2">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="5SI-JU-PTO"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UxL-et-D7b">
                                         <rect key="frame" x="15.000000000000007" y="134.66666666666669" width="114.66666666666669" height="116"/>
@@ -6746,9 +6743,6 @@
                                         <state key="normal" title="4">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="Rv0-Mp-Kf7"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="T2H-y2-yLn">
                                         <rect key="frame" x="139.66666666666666" y="134.66666666666669" width="114.66666666666666" height="116"/>
@@ -6756,9 +6750,6 @@
                                         <state key="normal" title="5">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="fDv-vC-TnE"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vk8-SG-a7N">
                                         <rect key="frame" x="264.33333333333331" y="134.66666666666669" width="114.66666666666669" height="116"/>
@@ -6766,9 +6757,6 @@
                                         <state key="normal" title="6">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="Fts-ro-wuP"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PSj-Yc-FbP">
                                         <rect key="frame" x="139.66666666666666" y="260.66666666666669" width="114.66666666666666" height="114.66666666666669"/>
@@ -6776,9 +6764,6 @@
                                         <state key="normal" title="8">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="rd1-lN-A7q"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="9" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RFd-Sd-yUr">
                                         <rect key="frame" x="264.33333333333331" y="260.66666666666669" width="114.66666666666669" height="114.66666666666669"/>
@@ -6787,9 +6772,6 @@
                                         <state key="normal" title="9">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="563-o9-w3i"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Nd-SC-qN3">
                                         <rect key="frame" x="139.66666666666666" y="385.33333333333337" width="114.66666666666666" height="114.66666666666669"/>
@@ -6797,9 +6779,6 @@
                                         <state key="normal" title="0">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="6ZN-xX-LEk"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m7r-Tf-I90">
                                         <rect key="frame" x="15.000000000000007" y="260.66666666666669" width="114.66666666666669" height="114.66666666666669"/>
@@ -6810,9 +6789,6 @@
                                         <state key="normal" title="7">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="m04-Fa-ac1"/>
-                                        </connections>
                                     </button>
                                     <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pIw-xf-w7K">
                                         <rect key="frame" x="264.33333333333331" y="10.000000000000007" width="114.66666666666669" height="114.66666666666669"/>
@@ -6820,9 +6796,6 @@
                                         <state key="normal" title="3">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
-                                        <connections>
-                                            <action selector="numberPress:" destination="gI3-ka-awh" eventType="touchUpInside" id="Mo8-pc-n2S"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -6880,7 +6853,6 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="oke:" destination="gI3-ka-awh" eventType="touchUpInside" id="kjA-R7-t4f"/>
                                     <segue destination="eMe-Zh-q9l" kind="show" id="gJ4-Lh-8IB"/>
                                 </connections>
                             </button>
@@ -6919,13 +6891,10 @@
                         <viewLayoutGuide key="safeArea" id="3aN-lO-XIP"/>
                     </view>
                     <navigationItem key="navigationItem" id="nnw-zO-gFU"/>
-                    <connections>
-                        <outlet property="lbPin" destination="VVg-1E-EAe" id="P2t-2m-3mk"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tvm-Da-eMR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11054" y="1994"/>
+            <point key="canvasLocation" x="11006" y="2007"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="3iN-n5-0sF">
@@ -7030,7 +6999,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0ex-fN-8MJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="12067" y="1993"/>
+            <point key="canvasLocation" x="11901" y="2006"/>
         </scene>
     </scenes>
     <resources>
@@ -7067,18 +7036,16 @@
         <image name="visa" width="1044" height="662"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="eyo-GJ-keW"/>
         <segue reference="Zcm-Ng-tOp"/>
         <segue reference="M9G-6y-z8v"/>
         <segue reference="HRW-4U-esv"/>
         <segue reference="uY4-Mw-RXi"/>
-        <segue reference="fXQ-4X-ytx"/>
+        <segue reference="0At-vB-NnV"/>
         <segue reference="PA1-ag-Mdz"/>
-        <segue reference="Y4n-6t-HmP"/>
-        <segue reference="0uR-GP-lYw"/>
-        <segue reference="eyo-GJ-keW"/>
-        <segue reference="GgL-iN-pfC"/>
+        <segue reference="bfo-EK-OON"/>
         <segue reference="4hS-LX-g4B"/>
-        <segue reference="pFi-jT-pmq"/>
+        <segue reference="LYi-c1-NKQ"/>
         <segue reference="NrO-GO-qcJ"/>
         <segue reference="1Ch-i0-ZZX"/>
     </inferredMetricsTieBreakers>
