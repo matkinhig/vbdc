@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="h4D-uK-HY2">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="zZB-Ph-QgF">
     <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -49,7 +49,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activation_login_image-default" translatesAutoresizingMaskIntoConstraints="NO" id="SVz-vR-y0b">
-                                <rect key="frame" x="0.0" y="64" width="414" height="135"/>
+                                <rect key="frame" x="0.0" y="63.999999999999986" width="414" height="135.00000000000003"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="rGg-aG-qZK"/>
                                 </constraints>
@@ -201,7 +201,7 @@
                                 </constraints>
                             </view>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="activation_login_image-default" translatesAutoresizingMaskIntoConstraints="NO" id="25K-ZP-WyO">
-                                <rect key="frame" x="0.0" y="64" width="414" height="135"/>
+                                <rect key="frame" x="0.0" y="63.999999999999986" width="414" height="135.00000000000003"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="135" id="M70-dh-6sH"/>
                                 </constraints>
@@ -454,7 +454,7 @@
             <objects>
                 <tableViewController storyboardIdentifier="TemplateTableView" id="S9y-LL-dJm" customClass="TemplateTableView" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" contentInsetAdjustmentBehavior="scrollableAxes" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" contentViewInsetsToSafeArea="NO" id="It3-12-tAf">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="2000"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="450"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" misplaced="YES" id="QOY-cy-oqT">
@@ -1473,7 +1473,7 @@
                             <outlet property="delegate" destination="S9y-LL-dJm" id="uXo-cs-OtC"/>
                         </connections>
                     </tableView>
-                    <size key="freeformSize" width="414" height="2000"/>
+                    <size key="freeformSize" width="414" height="450"/>
                     <connections>
                         <outlet property="cell1" destination="bFi-ci-HUD" id="5fi-RT-tWP"/>
                         <outlet property="contentViewTable" destination="MJs-4b-DnK" id="w6u-ND-EZe"/>
@@ -3298,7 +3298,7 @@
         <!--Detail View-->
         <scene sceneID="gUf-9i-tFL">
             <objects>
-                <viewController storyboardIdentifier="DetailView1" id="p6e-52-iB3" customClass="DetailView" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="detailView1" id="p6e-52-iB3" customClass="DetailView" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="vde-GD-Ckm">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -3319,6 +3319,9 @@
                                             <constraint firstAttribute="height" constant="22" id="t0H-MX-7re"/>
                                         </constraints>
                                         <state key="normal" image="icons8-long-arrow-left-100"/>
+                                        <connections>
+                                            <segue destination="YMZ-rD-jQD" kind="show" id="PA1-ag-Mdz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.1156909689" green="0.29523736239999998" blue="0.44066023830000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -4791,7 +4794,7 @@
             <objects>
                 <tableViewController id="8hd-Hg-yxv" customClass="DBTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="0g3-JW-TGo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="450"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <sections>
@@ -5037,7 +5040,7 @@
                                         <rect key="frame" x="0.0" y="650" width="414" height="477"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="zt9-Pc-Awb" id="q96-7O-bem">
-                                            <rect key="frame" x="0.0" y="0.0" width="414" height="477"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="476.66666666666669"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9h7-gl-7gO">
@@ -5199,7 +5202,7 @@
                             <outlet property="delegate" destination="8hd-Hg-yxv" id="GTg-KH-6am"/>
                         </connections>
                     </tableView>
-                    <size key="freeformSize" width="414" height="1500"/>
+                    <size key="freeformSize" width="414" height="450"/>
                     <connections>
                         <outlet property="btnAccount" destination="s5V-DN-Koh" id="YaC-Tu-Hvt"/>
                         <outlet property="btnPayment" destination="iXK-9w-0MQ" id="V8c-Ps-iHF"/>
@@ -7069,13 +7072,14 @@
         <segue reference="HRW-4U-esv"/>
         <segue reference="uY4-Mw-RXi"/>
         <segue reference="fXQ-4X-ytx"/>
+        <segue reference="PA1-ag-Mdz"/>
         <segue reference="Y4n-6t-HmP"/>
         <segue reference="0uR-GP-lYw"/>
         <segue reference="eyo-GJ-keW"/>
         <segue reference="GgL-iN-pfC"/>
         <segue reference="4hS-LX-g4B"/>
         <segue reference="pFi-jT-pmq"/>
-        <segue reference="hzQ-dQ-jG2"/>
+        <segue reference="NrO-GO-qcJ"/>
         <segue reference="1Ch-i0-ZZX"/>
     </inferredMetricsTieBreakers>
 </document>

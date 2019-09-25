@@ -37,7 +37,7 @@
     
     arrayDetail = @[@"PIN CODE",@"CONNECT THE DOT"];
     arrayDes = @[@"You can choose 6 digits long pin code", @"You can connect dots"];
-    arrayImage = @[@"unlock_pin-default",@"unlock_lock_pattern-default"];
+    arrayImage = @[@"pin",@"pattern"];
     
     detailPin  = @"PIN CODE";
     detailDot = @"CONNECT THE DOT";

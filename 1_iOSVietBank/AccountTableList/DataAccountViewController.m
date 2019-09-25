@@ -142,10 +142,13 @@
 //    TemplateTableView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"TemplateTableView"];
 //    [self presentViewController:newView animated:YES completion:nil];
     
-    DetailView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailView1"];
-    [newView presentViewController:newView animated:YES completion:nil];
+//    DetailView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"DetailView1"];
+//    [newView presentViewController:newView animated:YES completion:nil];
+//
+    DetailView * newView1 = [self.storyboard instantiateViewControllerWithIdentifier:@"detailView1"];
+    [self presentViewController:newView1 animated:YES completion:nil];
     
-//    NSLog(@"%@ - %@", acclist.accountName, acclist.accountNumber);
+    NSLog(@"oke");
 }
 
 
