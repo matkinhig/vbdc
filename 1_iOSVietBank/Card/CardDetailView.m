@@ -8,6 +8,7 @@
 
 #import "CardDetailView.h"
 #import "CardCell.h"
+#import "InfoCell.h"
 
 @interface CardDetailView () <UITableViewDelegate , UITableViewDataSource>
 {
@@ -33,70 +34,104 @@
     
     NSLog(@"%li" , self.arrayName.count);
     NSLog(@"%li" , self.arrayDate.count);
-//    self.table.hidden = YES;
+    //    self.table.hidden = YES;
     frame = self.view.frame;
-    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 44, frame.size.width, frame.size.height)];
+    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 60, frame.size.width, frame.size.height)];
+}
+
+- (void) addContraint {
+    NSLayoutConstraint *centreHorizontallyConstraint = [NSLayoutConstraint
+                                                        constraintWithItem:self.viewInfoCard
+                                                        attribute:NSLayoutAttributeCenterX
+                                                        relatedBy:NSLayoutRelationEqual
+                                                        toItem:self.scrollView
+                                                        attribute:NSLayoutAttributeCenterX
+                                                        multiplier:1.0
+                                                        constant:0];
     
+    NSLayoutConstraint *centreVerticalConstraint = [NSLayoutConstraint
+                                                    constraintWithItem:self.viewInfoCard
+                                                    attribute:NSLayoutAttributeCenterY
+                                                    relatedBy:NSLayoutRelationEqual
+                                                    toItem:self.scrollView
+                                                    attribute:NSLayoutAttributeCenterY
+                                                    multiplier:1.0
+                                                    constant:0];
+    [self.scrollView addConstraint:centreHorizontallyConstraint];
+    [self.scrollView addConstraint:centreVerticalConstraint];
+}
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.arrayName.count;
+    if (section == 0) {
+        return 1;
+    }
+    else return self.arrayName.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    NSString * cellName = @"cell";
-    //cách 2:
-    CardCell * cell = [tableView dequeueReusableCellWithIdentifier:cellName];
-    if (indexPath.row % 3 == 0) {
-        cell.imageCell.image = [UIImage imageNamed:@"avatar"];
+    if (indexPath.section == 0) {
+        NSString * cellName = @"InfoCell";
+        //cách 2:
+        UITableViewCell * cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:cellName];
+        return cell;
     }
-    else if (indexPath.row % 3 == 1) {
-        cell.imageCell.image = [UIImage imageNamed:@"avatar1"];
+    else{
+        NSString * cellName = @"cell";
+        //cách 2:
+        CardCell * cell = [tableView dequeueReusableCellWithIdentifier:cellName];
+        if (indexPath.row % 3 == 0) {
+            cell.imageCell.image = [UIImage imageNamed:@"avatar"];
+        }
+        else if (indexPath.row % 3 == 1) {
+            cell.imageCell.image = [UIImage imageNamed:@"avatar1"];
+        }
+        else {
+            cell.imageCell.image = [UIImage imageNamed:@"avatar2"];
+        }
+        cell.lbName.text = self.arrayName[indexPath.row];
+        cell.lbDate.text = self.arrayDate[indexPath.row];
+        cell.lbAmount.text =  [NSString stringWithFormat:@"%@ %@",self.arrayAmount[indexPath.row], @"$"];
+        if([self.arrayAmount[indexPath.row] integerValue] < 0)
+        {
+            cell.lbAmount.textColor = [UIColor redColor];
+        }
+        else {
+            cell.lbAmount.textColor = [UIColor greenColor];
+        }
+        return cell;
     }
-    else {
-        cell.imageCell.image = [UIImage imageNamed:@"avatar2"];
-    }
-    cell.lbName.text = self.arrayName[indexPath.row];
-    cell.lbDate.text = self.arrayDate[indexPath.row];
-    cell.lbAmount.text =  [NSString stringWithFormat:@"%@ %@",self.arrayAmount[indexPath.row], @"$"];
-    if([self.arrayAmount[indexPath.row] integerValue] < 0)
-    {
-        cell.lbAmount.textColor = [UIColor redColor];
-    }
-    else {
-        cell.lbAmount.textColor = [UIColor greenColor];
-    }
-    return cell;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
-    return 60;
+    if (indexPath.section == 0) {
+        return 200;
+    }
+    else return 60;
 }
 
 - (IBAction)btnShow:(id)sender {
     self.btnSlide.hidden = YES;
-    self.viewInfoCard.frame = CGRectMake(0, 44, frame.size.width , frame.size.height);
-    
+    self.scrollView.contentSize = CGSizeMake(frame.size.width, 1000);
+    self.viewInfoCard.frame = CGRectMake(0, 0, self.view.frame.size.width , frame.size.height);
+    [self.scrollView addSubview:self.viewInfoCard];
+    [self.view addSubview:self.scrollView];
+    self.scrollView.backgroundColor = [UIColor lightGrayColor];
+    self.table.hidden = YES;
 }
 
 
 - (IBAction)editStatus:(id)sender {
+    NSLog(@"editStatus");
 }
 - (IBAction)searchRelated:(id)sender {
+    NSLog(@"searchRelated");
 }
 - (IBAction)searchBlocked:(id)sender {
+    NSLog(@"searchBlocked");
 }
-- (IBAction)editLimit:(id)sender {
-}
-- (IBAction)changePin:(id)sender {
-}
-- (IBAction)showCardNumber:(id)sender {
-}
-- (IBAction)showBlockedTransaction:(id)sender {
-}
-- (IBAction)showRelatedAccount:(id)sender {
-}
-
 
 
 

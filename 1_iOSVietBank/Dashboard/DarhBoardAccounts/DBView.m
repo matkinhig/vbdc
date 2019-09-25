@@ -21,35 +21,24 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.viewMoreInfo.hidden = YES;
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 180, self.view.frame.size.width, self.view.frame.size.height - (40+40+150+44))];
-}
-
-- (void) createScrollView {
-//    CGRect frame = self.viewMoreInfo.frame;
-//    frame.size.height = 650;
-//    self.viewMoreInfo.frame = frame;
-    
-    self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 44+150, self.view.frame.size.width, self.view.frame.size.height - (40+40+150+44))];
-//    [self.view addSubview:self.scrollView];
 }
 
 
 
 - (IBAction)showMoreInfo:(id)sender {
-    self.viewInput.backgroundColor = [UIColor redColor];
-    self.viewMoreInfo.backgroundColor = [UIColor greenColor];
-    self.viewMoreInfo.frame = CGRectMake(0,0, self.view.frame.size.width, 500);
-  
+    self.viewInput.backgroundColor = [UIColor greenColor];
+    self.viewInput.frame = CGRectMake(0,0, self.view.frame.size.width, 650);
+  [self.view addSubview:self.scrollView];
     
-    self.viewMoreInfo.hidden = NO;
+//    self.viewMoreInfo.hidden = NO;
     self.btnMoreInfo.hidden = YES;
     
     
 
-    self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, self.viewMoreInfo.frame.size.height);
-    [self.scrollView addSubview:self.viewMoreInfo];
-    [self.view addSubview:self.scrollView];
+    self.scrollView.contentSize = CGSizeMake(self.view.frame.size.width, 800);
+    [self.scrollView addSubview:self.viewInput];
+    
     
     NSLog(@"%f", self.view.frame.size.width);
     NSLog(@"%f", self.view.frame.size.height);

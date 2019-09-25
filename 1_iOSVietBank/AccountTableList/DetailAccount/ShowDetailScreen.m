@@ -7,18 +7,16 @@
 //
 
 #import "ShowDetailScreen.h"
-#import "ShowTransactionScreen.h"
 #import "UIViewController+LCModal.h"
-#import "../../Dashboard/DashBoardViewController.h"
-#import "../../Transaction/CitadInputScreen.h"
+#import "../../Dashboard/DarhBoardAccounts/DBView.h"
+#import "../../Card/TemplateTableView.h"
+
 
 @interface ShowDetailScreen ()
 @property (strong, nonatomic) IBOutlet UILabel *accountName;
 @property (strong, nonatomic) IBOutlet UILabel *accountNumber;
 @property (strong, nonatomic) IBOutlet UILabel *accountAmount;
 @property (strong, nonatomic) IBOutlet UILabel *amout;
-@property (strong,nonatomic) DashBoardViewController * DBView;
-@property (strong,nonatomic) CitadInputScreen * citadView;
 @end
 
 @implementation ShowDetailScreen
@@ -32,7 +30,8 @@
     self.amout.text = self.stringAmount;
 }
 - (IBAction)sendMoney:(id)sender {
-   
+    DBView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"DBView1"];
+    [self presentViewController:newView animated:YES completion:nil];
 }
 - (IBAction)touchUpShow:(id)sender {
    

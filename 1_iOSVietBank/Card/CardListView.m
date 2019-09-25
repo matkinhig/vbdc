@@ -7,6 +7,7 @@
 //
 
 #import "CardListView.h"
+#import "TemplateTableView.h"
 
 @interface CardListView ()
 @property (strong , nonatomic) NSArray * arrayCardName;
@@ -42,6 +43,9 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     NSLog(@"SELECTED ROW");
+    TemplateTableView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"TemplateTableView"];
+    [self presentViewController:newView animated:YES completion:nil];
+    
 }
 
 @end

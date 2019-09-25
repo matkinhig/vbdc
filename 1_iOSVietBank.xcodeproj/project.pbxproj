@@ -7,16 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		580021B123385F5A00194F1D /* TemplateTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 580021B023385F5A00194F1D /* TemplateTableView.m */; };
+		581CFFBE233B016C0024AB0C /* CitadInpudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFBD233B016C0024AB0C /* CitadInpudView.m */; };
+		581CFFC1233B06B90024AB0C /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFC0233B06B90024AB0C /* DetailView.m */; };
+		5838081E233371CC00A5E4DD /* SignCardStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5838081D233371CC00A5E4DD /* SignCardStatusView.m */; };
+		583808212333842000A5E4DD /* ChangeCardPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583808202333842000A5E4DD /* ChangeCardPinView.m */; };
+		58380824233385E800A5E4DD /* NewPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58380823233385E800A5E4DD /* NewPinView.m */; };
+		583808272333877300A5E4DD /* ConfirmNewPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583808262333877300A5E4DD /* ConfirmNewPinView.m */; };
+		5838082A2333959200A5E4DD /* ChangeCardLimitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583808292333959200A5E4DD /* ChangeCardLimitView.m */; };
 		58728B02232A9E4700444D3A /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58728AFD232A9E4300444D3A /* ColorViewController.m */; };
 		58728B03232A9E4700444D3A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58728AFF232A9E4500444D3A /* MapViewController.m */; };
 		58728B04232A9E4700444D3A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58728B00232A9E4600444D3A /* MenuViewController.m */; };
 		587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587BBD562322676A007D14E7 /* AccountTableViewController.m */; };
-		5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 5886529E2328E48200E4BBC3 /* CitadInputScreen.m */; };
+		587C6D8D2333209300F92252 /* ChangeCardStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C6D8C2333209300F92252 /* ChangeCardStatusView.m */; };
 		588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */; };
 		589854B2232A727A0008316A /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B1232A727A0008316A /* MenuView.m */; };
 		589854B6232A78FC0008316A /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B5232A78FC0008316A /* MapView.m */; };
 		589854BE232A85A60008316A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854BD232A85A50008316A /* SWRevealViewController.m */; };
 		589854C3232A89D00008316A /* ActivationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854C2232A89D00008316A /* ActivationView.m */; };
+		5898A9C12337203700DFB043 /* InfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5898A9C02337203700DFB043 /* InfoCell.m */; };
 		589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C3966231FBC90001D30E2 /* LoginIDController.m */; };
 		589C39982320C771001D30E2 /* LoginMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589C39972320C771001D30E2 /* LoginMethodViewController.m */; };
 		589C39A22320E514001D30E2 /* CenterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 589C39A12320E514001D30E2 /* CenterView.xib */; };
@@ -31,6 +40,7 @@
 		58A470692319017C00AD90E2 /* __iOSVietBank.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 58A470672319017C00AD90E2 /* __iOSVietBank.xcdatamodeld */; };
 		58A4706E2319017E00AD90E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A4706C2319017E00AD90E2 /* LaunchScreen.storyboard */; };
 		58A470712319017E00AD90E2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A470702319017E00AD90E2 /* main.m */; };
+		58ACE97A2338B2A900747B76 /* ChangeCardLimitCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58ACE9792338B2A900747B76 /* ChangeCardLimitCodeView.m */; };
 		58B7AD63232B36CF00DD1741 /* PatternVController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD62232B36CF00DD1741 /* PatternVController.m */; };
 		58B7AD6F232B37BD00DD1741 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD66232B37BC00DD1741 /* DrawingView.m */; };
 		58B7AD70232B37BD00DD1741 /* PatternView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD67232B37BC00DD1741 /* PatternView.m */; };
@@ -38,7 +48,7 @@
 		58B7AD72232B37BD00DD1741 /* NodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD6C232B37BD00DD1741 /* NodeView.m */; };
 		58B7AD75232B37ED00DD1741 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD73232B37ED00DD1741 /* Utils.m */; };
 		58B7AD7D232B858B00DD1741 /* UIViewController+LCModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */; };
-		58B7AD80232B86DA00DD1741 /* ShowTransactionScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD7F232B86DA00DD1741 /* ShowTransactionScreen.m */; };
+		58C04B3D2339C84F00CE569F /* DBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C04B3C2339C84F00CE569F /* DBTableViewController.m */; };
 		58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1823210CB400AD57B3 /* PinViewController.m */; };
 		58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1C23210CF100AD57B3 /* PatternViewController.m */; };
 		58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58C5B4FB2325E57A0034519D /* DataAccount.plist */; };
@@ -81,6 +91,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		580021AF23385F5A00194F1D /* TemplateTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateTableView.h; sourceTree = "<group>"; };
+		580021B023385F5A00194F1D /* TemplateTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateTableView.m; sourceTree = "<group>"; };
+		581CFFBC233B016C0024AB0C /* CitadInpudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadInpudView.h; sourceTree = "<group>"; };
+		581CFFBD233B016C0024AB0C /* CitadInpudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadInpudView.m; sourceTree = "<group>"; };
+		581CFFBF233B06B90024AB0C /* DetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
+		581CFFC0233B06B90024AB0C /* DetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailView.m; sourceTree = "<group>"; };
+		5838081C233371CC00A5E4DD /* SignCardStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignCardStatusView.h; sourceTree = "<group>"; };
+		5838081D233371CC00A5E4DD /* SignCardStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignCardStatusView.m; sourceTree = "<group>"; };
+		5838081F2333842000A5E4DD /* ChangeCardPinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardPinView.h; sourceTree = "<group>"; };
+		583808202333842000A5E4DD /* ChangeCardPinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardPinView.m; sourceTree = "<group>"; };
+		58380822233385E800A5E4DD /* NewPinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewPinView.h; sourceTree = "<group>"; };
+		58380823233385E800A5E4DD /* NewPinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewPinView.m; sourceTree = "<group>"; };
+		583808252333877300A5E4DD /* ConfirmNewPinView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmNewPinView.h; sourceTree = "<group>"; };
+		583808262333877300A5E4DD /* ConfirmNewPinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmNewPinView.m; sourceTree = "<group>"; };
+		583808282333959200A5E4DD /* ChangeCardLimitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardLimitView.h; sourceTree = "<group>"; };
+		583808292333959200A5E4DD /* ChangeCardLimitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardLimitView.m; sourceTree = "<group>"; };
 		58728AFC232A9E4300444D3A /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
 		58728AFD232A9E4300444D3A /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 		58728AFE232A9E4400444D3A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -89,8 +115,8 @@
 		58728B01232A9E4600444D3A /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
 		587BBD552322676A007D14E7 /* AccountTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountTableViewController.h; sourceTree = "<group>"; };
 		587BBD562322676A007D14E7 /* AccountTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountTableViewController.m; sourceTree = "<group>"; };
-		5886529D2328E48200E4BBC3 /* CitadInputScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadInputScreen.h; sourceTree = "<group>"; };
-		5886529E2328E48200E4BBC3 /* CitadInputScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadInputScreen.m; sourceTree = "<group>"; };
+		587C6D8B2333209300F92252 /* ChangeCardStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardStatusView.h; sourceTree = "<group>"; };
+		587C6D8C2333209300F92252 /* ChangeCardStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardStatusView.m; sourceTree = "<group>"; };
 		588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadConfirmScreen.h; sourceTree = "<group>"; };
 		588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadConfirmScreen.m; sourceTree = "<group>"; };
 		589854B0232A727A0008316A /* MenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
@@ -105,6 +131,8 @@
 		589854BD232A85A50008316A /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		589854C1232A89D00008316A /* ActivationView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivationView.h; sourceTree = "<group>"; };
 		589854C2232A89D00008316A /* ActivationView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivationView.m; sourceTree = "<group>"; };
+		5898A9BF2337203700DFB043 /* InfoCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InfoCell.h; sourceTree = "<group>"; };
+		5898A9C02337203700DFB043 /* InfoCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InfoCell.m; sourceTree = "<group>"; };
 		589C3965231FBC90001D30E2 /* LoginIDController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginIDController.h; sourceTree = "<group>"; };
 		589C3966231FBC90001D30E2 /* LoginIDController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginIDController.m; sourceTree = "<group>"; };
 		589C39962320C771001D30E2 /* LoginMethodViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginMethodViewController.h; sourceTree = "<group>"; };
@@ -132,6 +160,8 @@
 		58A470702319017E00AD90E2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		58A470762319017E00AD90E2 /* 1_iOSVietBankTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1_iOSVietBankTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A470812319017E00AD90E2 /* 1_iOSVietBankUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 1_iOSVietBankUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		58ACE9782338B2A900747B76 /* ChangeCardLimitCodeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardLimitCodeView.h; sourceTree = "<group>"; };
+		58ACE9792338B2A900747B76 /* ChangeCardLimitCodeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardLimitCodeView.m; sourceTree = "<group>"; };
 		58B7AD61232B36CF00DD1741 /* PatternVController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternVController.h; sourceTree = "<group>"; };
 		58B7AD62232B36CF00DD1741 /* PatternVController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatternVController.m; sourceTree = "<group>"; };
 		58B7AD65232B37BC00DD1741 /* PatternManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternManager.h; sourceTree = "<group>"; };
@@ -146,8 +176,8 @@
 		58B7AD74232B37ED00DD1741 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		58B7AD7B232B858B00DD1741 /* UIViewController+LCModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LCModal.h"; sourceTree = "<group>"; };
 		58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LCModal.m"; sourceTree = "<group>"; };
-		58B7AD7E232B86DA00DD1741 /* ShowTransactionScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShowTransactionScreen.h; sourceTree = "<group>"; };
-		58B7AD7F232B86DA00DD1741 /* ShowTransactionScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShowTransactionScreen.m; sourceTree = "<group>"; };
+		58C04B3B2339C84F00CE569F /* DBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBTableViewController.h; sourceTree = "<group>"; };
+		58C04B3C2339C84F00CE569F /* DBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBTableViewController.m; sourceTree = "<group>"; };
 		58C21F1723210CB400AD57B3 /* PinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
 		58C21F1823210CB400AD57B3 /* PinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinViewController.m; sourceTree = "<group>"; };
 		58C21F1B23210CF100AD57B3 /* PatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternViewController.h; sourceTree = "<group>"; };
@@ -229,12 +259,12 @@
 		5886529C2328E45500E4BBC3 /* Transaction */ = {
 			isa = PBXGroup;
 			children = (
-				5886529D2328E48200E4BBC3 /* CitadInputScreen.h */,
-				5886529E2328E48200E4BBC3 /* CitadInputScreen.m */,
 				588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */,
 				588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */,
 				58D8CFCC232BCE05008AC584 /* CitadSignScreen.h */,
 				58D8CFCD232BCE05008AC584 /* CitadSignScreen.m */,
+				581CFFBC233B016C0024AB0C /* CitadInpudView.h */,
+				581CFFBD233B016C0024AB0C /* CitadInpudView.m */,
 			);
 			path = Transaction;
 			sourceTree = "<group>";
@@ -475,6 +505,24 @@
 				58E7DB5D2331DF74006495D4 /* CardDetailView.m */,
 				58E7DB5F23320767006495D4 /* CardCell.h */,
 				58E7DB6023320767006495D4 /* CardCell.m */,
+				587C6D8B2333209300F92252 /* ChangeCardStatusView.h */,
+				587C6D8C2333209300F92252 /* ChangeCardStatusView.m */,
+				5838081C233371CC00A5E4DD /* SignCardStatusView.h */,
+				5838081D233371CC00A5E4DD /* SignCardStatusView.m */,
+				5838081F2333842000A5E4DD /* ChangeCardPinView.h */,
+				583808202333842000A5E4DD /* ChangeCardPinView.m */,
+				58380822233385E800A5E4DD /* NewPinView.h */,
+				58380823233385E800A5E4DD /* NewPinView.m */,
+				583808252333877300A5E4DD /* ConfirmNewPinView.h */,
+				583808262333877300A5E4DD /* ConfirmNewPinView.m */,
+				583808282333959200A5E4DD /* ChangeCardLimitView.h */,
+				583808292333959200A5E4DD /* ChangeCardLimitView.m */,
+				5898A9BF2337203700DFB043 /* InfoCell.h */,
+				5898A9C02337203700DFB043 /* InfoCell.m */,
+				580021AF23385F5A00194F1D /* TemplateTableView.h */,
+				580021B023385F5A00194F1D /* TemplateTableView.m */,
+				58ACE9782338B2A900747B76 /* ChangeCardLimitCodeView.h */,
+				58ACE9792338B2A900747B76 /* ChangeCardLimitCodeView.m */,
 			);
 			path = Card;
 			sourceTree = "<group>";
@@ -496,8 +544,8 @@
 				58EEEBBD2327F80D00200787 /* ShowDetailScreen.h */,
 				58EEEBBE2327F80D00200787 /* ShowDetailScreen.m */,
 				58D48F52232C7C1E00407AE4 /* ShowDetailScreen.xib */,
-				58B7AD7E232B86DA00DD1741 /* ShowTransactionScreen.h */,
-				58B7AD7F232B86DA00DD1741 /* ShowTransactionScreen.m */,
+				581CFFBF233B06B90024AB0C /* DetailView.h */,
+				581CFFC0233B06B90024AB0C /* DetailView.m */,
 			);
 			path = DetailAccount;
 			sourceTree = "<group>";
@@ -525,6 +573,8 @@
 				58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */,
 				58F20EC1232F94DA0081B86D /* DBView.h */,
 				58F20EC2232F94DA0081B86D /* DBView.m */,
+				58C04B3B2339C84F00CE569F /* DBTableViewController.h */,
+				58C04B3C2339C84F00CE569F /* DBTableViewController.m */,
 			);
 			path = DarhBoardAccounts;
 			sourceTree = "<group>";
@@ -675,15 +725,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				589C3967231FBC90001D30E2 /* LoginIDController.m in Sources */,
+				583808212333842000A5E4DD /* ChangeCardPinView.m in Sources */,
 				589854B2232A727A0008316A /* MenuView.m in Sources */,
 				58B7AD7D232B858B00DD1741 /* UIViewController+LCModal.m in Sources */,
+				58ACE97A2338B2A900747B76 /* ChangeCardLimitCodeView.m in Sources */,
 				58728B02232A9E4700444D3A /* ColorViewController.m in Sources */,
 				587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */,
 				58728B04232A9E4700444D3A /* MenuViewController.m in Sources */,
 				58EEEBC02327F80D00200787 /* ShowDetailScreen.m in Sources */,
-				5886529F2328E48200E4BBC3 /* CitadInputScreen.m in Sources */,
+				583808272333877300A5E4DD /* ConfirmNewPinView.m in Sources */,
 				58B7AD63232B36CF00DD1741 /* PatternVController.m in Sources */,
 				58C5B504232606370034519D /* DataAccountViewController.m in Sources */,
+				58380824233385E800A5E4DD /* NewPinView.m in Sources */,
+				580021B123385F5A00194F1D /* TemplateTableView.m in Sources */,
 				58E7DB5B2331BF85006495D4 /* CardListView.m in Sources */,
 				589CE15C23267EE100F36B99 /* AccountList.m in Sources */,
 				58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */,
@@ -704,23 +758,29 @@
 				589854B6232A78FC0008316A /* MapView.m in Sources */,
 				58EEEBC5232884A300200787 /* DashBoardViewController.m in Sources */,
 				58A470692319017C00AD90E2 /* __iOSVietBank.xcdatamodeld in Sources */,
+				587C6D8D2333209300F92252 /* ChangeCardStatusView.m in Sources */,
 				58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */,
 				58F20EC3232F94DA0081B86D /* DBView.m in Sources */,
+				5838081E233371CC00A5E4DD /* SignCardStatusView.m in Sources */,
 				58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */,
 				589854C3232A89D00008316A /* ActivationView.m in Sources */,
 				58B7AD70232B37BD00DD1741 /* PatternView.m in Sources */,
 				589854BE232A85A60008316A /* SWRevealViewController.m in Sources */,
-				58B7AD80232B86DA00DD1741 /* ShowTransactionScreen.m in Sources */,
+				5838082A2333959200A5E4DD /* ChangeCardLimitView.m in Sources */,
+				581CFFC1233B06B90024AB0C /* DetailView.m in Sources */,
 				589C39A82320E57F001D30E2 /* CenterView.m in Sources */,
 				58B7AD75232B37ED00DD1741 /* Utils.m in Sources */,
 				58B7AD72232B37BD00DD1741 /* NodeView.m in Sources */,
 				58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */,
+				58C04B3D2339C84F00CE569F /* DBTableViewController.m in Sources */,
 				58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */,
 				58EEEBB7232754CE00200787 /* CustomAccountTableViewCell.m in Sources */,
 				58B7AD71232B37BD00DD1741 /* PatternManager.m in Sources */,
 				589CE15923267EC400F36B99 /* AccountData.m in Sources */,
 				589CE15F232697F300F36B99 /* AccountType.m in Sources */,
 				58B7AD6F232B37BD00DD1741 /* DrawingView.m in Sources */,
+				581CFFBE233B016C0024AB0C /* CitadInpudView.m in Sources */,
+				5898A9C12337203700DFB043 /* InfoCell.m in Sources */,
 				58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
