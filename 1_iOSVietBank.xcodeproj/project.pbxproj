@@ -50,6 +50,9 @@
 		58B7AD72232B37BD00DD1741 /* NodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD6C232B37BD00DD1741 /* NodeView.m */; };
 		58B7AD75232B37ED00DD1741 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD73232B37ED00DD1741 /* Utils.m */; };
 		58B7AD7D232B858B00DD1741 /* UIViewController+LCModal.m in Sources */ = {isa = PBXBuildFile; fileRef = 58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */; };
+		58BAE706233C4D3B00FB7365 /* PayBillView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BAE705233C4D3B00FB7365 /* PayBillView.m */; };
+		58BAE70C233C6BE400FB7365 /* PayBillViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BAE70B233C6BE400FB7365 /* PayBillViewCell.m */; };
+		58BAE70F233CA3AA00FB7365 /* PayBillInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BAE70E233CA3AA00FB7365 /* PayBillInputView.m */; };
 		58C04B3D2339C84F00CE569F /* DBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C04B3C2339C84F00CE569F /* DBTableViewController.m */; };
 		58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1823210CB400AD57B3 /* PinViewController.m */; };
 		58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1C23210CF100AD57B3 /* PatternViewController.m */; };
@@ -182,6 +185,12 @@
 		58B7AD74232B37ED00DD1741 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		58B7AD7B232B858B00DD1741 /* UIViewController+LCModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LCModal.h"; sourceTree = "<group>"; };
 		58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LCModal.m"; sourceTree = "<group>"; };
+		58BAE704233C4D3B00FB7365 /* PayBillView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillView.h; sourceTree = "<group>"; };
+		58BAE705233C4D3B00FB7365 /* PayBillView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillView.m; sourceTree = "<group>"; };
+		58BAE70A233C6BE400FB7365 /* PayBillViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillViewCell.h; sourceTree = "<group>"; };
+		58BAE70B233C6BE400FB7365 /* PayBillViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillViewCell.m; sourceTree = "<group>"; };
+		58BAE70D233CA3AA00FB7365 /* PayBillInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillInputView.h; sourceTree = "<group>"; };
+		58BAE70E233CA3AA00FB7365 /* PayBillInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillInputView.m; sourceTree = "<group>"; };
 		58C04B3B2339C84F00CE569F /* DBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBTableViewController.h; sourceTree = "<group>"; };
 		58C04B3C2339C84F00CE569F /* DBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBTableViewController.m; sourceTree = "<group>"; };
 		58C21F1723210CB400AD57B3 /* PinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
@@ -370,6 +379,7 @@
 			children = (
 				58DCB2C9232F1F2600F63C99 /* Assets.xcassets */,
 				58A470642319017C00AD90E2 /* Main.storyboard */,
+				58BAE703233C4D1C00FB7365 /* PayBill */,
 				58E7DB582331BF24006495D4 /* Card */,
 				589854BF232A89AE0008316A /* Activation */,
 				589854AF232A72610008316A /* Menu */,
@@ -395,6 +405,19 @@
 				58D751B32321FAF20011E7F3 /* SupportFile */,
 			);
 			path = 1_iOSVietBank;
+			sourceTree = "<group>";
+		};
+		58BAE703233C4D1C00FB7365 /* PayBill */ = {
+			isa = PBXGroup;
+			children = (
+				58BAE704233C4D3B00FB7365 /* PayBillView.h */,
+				58BAE705233C4D3B00FB7365 /* PayBillView.m */,
+				58BAE70A233C6BE400FB7365 /* PayBillViewCell.h */,
+				58BAE70B233C6BE400FB7365 /* PayBillViewCell.m */,
+				58BAE70D233CA3AA00FB7365 /* PayBillInputView.h */,
+				58BAE70E233CA3AA00FB7365 /* PayBillInputView.m */,
+			);
+			path = PayBill;
 			sourceTree = "<group>";
 		};
 		58C21F1623210C8500AD57B3 /* PinUnlock */ = {
@@ -786,14 +809,17 @@
 				58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */,
 				58C04B3D2339C84F00CE569F /* DBTableViewController.m in Sources */,
 				58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */,
+				58BAE70F233CA3AA00FB7365 /* PayBillInputView.m in Sources */,
 				58EEEBB7232754CE00200787 /* CustomAccountTableViewCell.m in Sources */,
 				58B7AD71232B37BD00DD1741 /* PatternManager.m in Sources */,
 				589CE15923267EC400F36B99 /* AccountData.m in Sources */,
 				589CE15F232697F300F36B99 /* AccountType.m in Sources */,
 				58B7AD6F232B37BD00DD1741 /* DrawingView.m in Sources */,
 				581CFFBE233B016C0024AB0C /* CitadInpudView.m in Sources */,
+				58BAE70C233C6BE400FB7365 /* PayBillViewCell.m in Sources */,
 				5898A9C12337203700DFB043 /* InfoCell.m in Sources */,
 				58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */,
+				58BAE706233C4D3B00FB7365 /* PayBillView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
