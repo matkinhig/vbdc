@@ -1,10 +1,12 @@
 //
-//  UIViewController+LCModal.h
-//  LCModal
+//  UIViewController.h
+//  1_iOSVietBank
 //
-//  Created by ThXou on 01/07/15.
-//  Copyright (c) 2015 iBoo Mobile. All rights reserved.
+//  Created by Lực Nguyễn  on 9/26/19.
+//  Copyright © 2019 Lực Nguyễn . All rights reserved.
 //
+
+
 
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>

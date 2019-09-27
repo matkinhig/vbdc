@@ -56,6 +56,8 @@
 		58C04B3D2339C84F00CE569F /* DBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C04B3C2339C84F00CE569F /* DBTableViewController.m */; };
 		58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1823210CB400AD57B3 /* PinViewController.m */; };
 		58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1C23210CF100AD57B3 /* PatternViewController.m */; };
+		58C48AEF233D9E8100175AA9 /* PayBillSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C48AEE233D9E8100175AA9 /* PayBillSignView.m */; };
+		58C48AF2233DA6C600175AA9 /* PayBillStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C48AF1233DA6C600175AA9 /* PayBillStatusView.m */; };
 		58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58C5B4FB2325E57A0034519D /* DataAccount.plist */; };
 		58C5B504232606370034519D /* DataAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C5B503232606370034519D /* DataAccountViewController.m */; };
 		58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6C81E2323524500069179 /* SMSPasswordViewController.m */; };
@@ -197,6 +199,10 @@
 		58C21F1823210CB400AD57B3 /* PinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PinViewController.m; sourceTree = "<group>"; };
 		58C21F1B23210CF100AD57B3 /* PatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PatternViewController.h; sourceTree = "<group>"; };
 		58C21F1C23210CF100AD57B3 /* PatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PatternViewController.m; sourceTree = "<group>"; };
+		58C48AED233D9E8100175AA9 /* PayBillSignView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillSignView.h; sourceTree = "<group>"; };
+		58C48AEE233D9E8100175AA9 /* PayBillSignView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillSignView.m; sourceTree = "<group>"; };
+		58C48AF0233DA6C600175AA9 /* PayBillStatusView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillStatusView.h; sourceTree = "<group>"; };
+		58C48AF1233DA6C600175AA9 /* PayBillStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillStatusView.m; sourceTree = "<group>"; };
 		58C5B4FB2325E57A0034519D /* DataAccount.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DataAccount.plist; sourceTree = "<group>"; };
 		58C5B502232606370034519D /* DataAccountViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataAccountViewController.h; sourceTree = "<group>"; };
 		58C5B503232606370034519D /* DataAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAccountViewController.m; sourceTree = "<group>"; };
@@ -416,6 +422,10 @@
 				58BAE70B233C6BE400FB7365 /* PayBillViewCell.m */,
 				58BAE70D233CA3AA00FB7365 /* PayBillInputView.h */,
 				58BAE70E233CA3AA00FB7365 /* PayBillInputView.m */,
+				58C48AED233D9E8100175AA9 /* PayBillSignView.h */,
+				58C48AEE233D9E8100175AA9 /* PayBillSignView.m */,
+				58C48AF0233DA6C600175AA9 /* PayBillStatusView.h */,
+				58C48AF1233DA6C600175AA9 /* PayBillStatusView.m */,
 			);
 			path = PayBill;
 			sourceTree = "<group>";
@@ -762,6 +772,7 @@
 				589854B2232A727A0008316A /* MenuView.m in Sources */,
 				58B7AD7D232B858B00DD1741 /* UIViewController+LCModal.m in Sources */,
 				58ACE97A2338B2A900747B76 /* ChangeCardLimitCodeView.m in Sources */,
+				58C48AEF233D9E8100175AA9 /* PayBillSignView.m in Sources */,
 				58728B02232A9E4700444D3A /* ColorViewController.m in Sources */,
 				587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */,
 				58728B04232A9E4700444D3A /* MenuViewController.m in Sources */,
@@ -819,6 +830,7 @@
 				58BAE70C233C6BE400FB7365 /* PayBillViewCell.m in Sources */,
 				5898A9C12337203700DFB043 /* InfoCell.m in Sources */,
 				58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */,
+				58C48AF2233DA6C600175AA9 /* PayBillStatusView.m in Sources */,
 				58BAE706233C4D3B00FB7365 /* PayBillView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -992,11 +1004,12 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78KJ4VW88C;
 				INFOPLIST_FILE = 1_iOSVietBank/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSVietBank.igstudiovn.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1004,6 +1017,8 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Debug;
 		};
@@ -1015,17 +1030,20 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 78KJ4VW88C;
 				INFOPLIST_FILE = 1_iOSVietBank/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = iOSVietBank.igstudiovn.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "1_iOSVietBank/LoginPin/1_iOSVietBank-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+				WATCHOS_DEPLOYMENT_TARGET = 4.0;
 			};
 			name = Release;
 		};
