@@ -80,6 +80,11 @@
     
 }
 
+- (CGFloat)pickerView:(UIPickerView *)pickerView rowHeightForComponent:(NSInteger)component
+{
+    return 40;
+}
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView beginUpdates];
     
@@ -115,7 +120,7 @@
     }
     else if(indexPath.section == 1) {
         if ([indexPath compare:self.sencondIndexPath] == NSOrderedSame) {
-            return 250;
+            return 260;
         }
         else return 110;
     }

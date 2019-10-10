@@ -7,6 +7,7 @@
 //
 
 #import "PinViewController.h"
+#import "../Offer/ChangeCapView.h"
 
 @interface PinViewController ()
 @property (weak,nonatomic) UIViewController * loginView;
@@ -69,8 +70,12 @@
 //        [alert addAction:ok];
 //        [self presentViewController:alert animated:YES completion:nil];
 //    }
-    _loginView = [self.storyboard instantiateViewControllerWithIdentifier:@"loginViewControllerID"];
-    [self presentViewController:_loginView animated:YES completion:nil];
+//    _loginView = [self.storyboard instantiateViewControllerWithIdentifier:@"loginViewControllerID"];
+//    [self presentViewController:_loginView animated:YES completion:nil];
+    
+    ChangeCapView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"ChangeCapView"];
+    [self presentViewController:newView animated:YES completion:nil];
+    
 }
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		580021B123385F5A00194F1D /* TemplateTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 580021B023385F5A00194F1D /* TemplateTableView.m */; };
+		58023744234DBB4E003D14DC /* EditPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58023743234DBB4E003D14DC /* EditPictureView.m */; };
 		581CFFBE233B016C0024AB0C /* CitadInpudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFBD233B016C0024AB0C /* CitadInpudView.m */; };
 		581CFFC1233B06B90024AB0C /* DetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFC0233B06B90024AB0C /* DetailView.m */; };
 		581CFFC4233B40E80024AB0C /* ChangeCardLimitSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 581CFFC3233B40E80024AB0C /* ChangeCardLimitSignView.m */; };
@@ -23,6 +24,7 @@
 		587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 587BBD562322676A007D14E7 /* AccountTableViewController.m */; };
 		587C6D8D2333209300F92252 /* ChangeCardStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 587C6D8C2333209300F92252 /* ChangeCardStatusView.m */; };
 		588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */; };
+		588EC7702341D88F00E742A7 /* ChangeCapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 588EC76F2341D88F00E742A7 /* ChangeCapView.m */; };
 		589854B2232A727A0008316A /* MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B1232A727A0008316A /* MenuView.m */; };
 		589854B6232A78FC0008316A /* MapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854B5232A78FC0008316A /* MapView.m */; };
 		589854BE232A85A60008316A /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 589854BD232A85A50008316A /* SWRevealViewController.m */; };
@@ -36,6 +38,8 @@
 		589CE15923267EC400F36B99 /* AccountData.m in Sources */ = {isa = PBXBuildFile; fileRef = 589CE15823267EC400F36B99 /* AccountData.m */; };
 		589CE15C23267EE100F36B99 /* AccountList.m in Sources */ = {isa = PBXBuildFile; fileRef = 589CE15B23267EE100F36B99 /* AccountList.m */; };
 		589CE15F232697F300F36B99 /* AccountType.m in Sources */ = {isa = PBXBuildFile; fileRef = 589CE15E232697F300F36B99 /* AccountType.m */; };
+		58A02D182344416300BA7E88 /* BasicDetailsView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A02D172344416300BA7E88 /* BasicDetailsView.m */; };
+		58A02D1B2344508500BA7E88 /* PersonalView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A02D1A2344508500BA7E88 /* PersonalView.m */; };
 		58A470602319017C00AD90E2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A4705F2319017C00AD90E2 /* AppDelegate.m */; };
 		58A470632319017C00AD90E2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A470622319017C00AD90E2 /* ViewController.m */; };
 		58A470662319017C00AD90E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58A470642319017C00AD90E2 /* Main.storyboard */; };
@@ -53,6 +57,9 @@
 		58BAE706233C4D3B00FB7365 /* PayBillView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BAE705233C4D3B00FB7365 /* PayBillView.m */; };
 		58BAE70C233C6BE400FB7365 /* PayBillViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BAE70B233C6BE400FB7365 /* PayBillViewCell.m */; };
 		58BAE70F233CA3AA00FB7365 /* PayBillInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BAE70E233CA3AA00FB7365 /* PayBillInputView.m */; };
+		58BB497F2342FE8A0015B917 /* OfferView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BB497E2342FE8A0015B917 /* OfferView.m */; };
+		58BB49822342FF030015B917 /* OfferCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BB49812342FF030015B917 /* OfferCell.m */; };
+		58BB498523430C9B0015B917 /* OfferSignView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58BB498423430C9B0015B917 /* OfferSignView.m */; };
 		58C04B3D2339C84F00CE569F /* DBTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C04B3C2339C84F00CE569F /* DBTableViewController.m */; };
 		58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1823210CB400AD57B3 /* PinViewController.m */; };
 		58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C21F1C23210CF100AD57B3 /* PatternViewController.m */; };
@@ -61,7 +68,15 @@
 		58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */ = {isa = PBXBuildFile; fileRef = 58C5B4FB2325E57A0034519D /* DataAccount.plist */; };
 		58C5B504232606370034519D /* DataAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C5B503232606370034519D /* DataAccountViewController.m */; };
 		58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58C6C81E2323524500069179 /* SMSPasswordViewController.m */; };
+		58D25C5D234C235A00C30B67 /* Secondary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58D25C5C234C235A00C30B67 /* Secondary.storyboard */; };
+		58D25C61234C23D300C30B67 /* EditProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D25C60234C23D300C30B67 /* EditProfileView.m */; };
+		58D25C64234C46F900C30B67 /* TransactionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D25C63234C46F900C30B67 /* TransactionView.m */; };
+		58D25C67234C4C8000C30B67 /* TransactionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D25C66234C4C8000C30B67 /* TransactionCell.m */; };
+		58D25C6F234C7A4D00C30B67 /* TransactionDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D25C6E234C7A4D00C30B67 /* TransactionDetailView.m */; };
 		58D48F53232C7C1E00407AE4 /* ShowDetailScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 58D48F52232C7C1E00407AE4 /* ShowDetailScreen.xib */; };
+		58D6EBB623448A7900AA10BC /* ResidenceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D6EBB523448A7900AA10BC /* ResidenceView.m */; };
+		58D6EBBC234498AC00AA10BC /* ItemView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D6EBBB234498AC00AA10BC /* ItemView.m */; };
+		58D6EBBF2344A44B00AA10BC /* ConfirmView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D6EBBE2344A44B00AA10BC /* ConfirmView.m */; };
 		58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D751B62321FE560011E7F3 /* LoginPinViewController.m */; };
 		58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D751C0232232B00011E7F3 /* CardTableViewController.m */; };
 		58D8CFCE232BCE05008AC584 /* CitadSignScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 58D8CFCD232BCE05008AC584 /* CitadSignScreen.m */; };
@@ -69,6 +84,10 @@
 		58E7DB5B2331BF85006495D4 /* CardListView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E7DB5A2331BF85006495D4 /* CardListView.m */; };
 		58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E7DB5D2331DF74006495D4 /* CardDetailView.m */; };
 		58E7DB6123320767006495D4 /* CardCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58E7DB6023320767006495D4 /* CardCell.m */; };
+		58EAF405234AE3A500C7E08C /* MenuLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EAF404234AE3A500C7E08C /* MenuLeftView.m */; };
+		58EAF408234B0CE500C7E08C /* MenuListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EAF407234B0CE500C7E08C /* MenuListCell.m */; };
+		58EE2C10234D7CDE00905D86 /* ProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE2C0F234D7CDE00905D86 /* ProfileView.m */; };
+		58EE2C15234DB73000905D86 /* EditProfileDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EE2C14234DB73000905D86 /* EditProfileDetailView.m */; };
 		58EEEBB7232754CE00200787 /* CustomAccountTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBB6232754CE00200787 /* CustomAccountTableViewCell.m */; };
 		58EEEBBB23278C4800200787 /* AccountDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBBA23278C4800200787 /* AccountDetail.m */; };
 		58EEEBC02327F80D00200787 /* ShowDetailScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBBE2327F80D00200787 /* ShowDetailScreen.m */; };
@@ -100,6 +119,8 @@
 /* Begin PBXFileReference section */
 		580021AF23385F5A00194F1D /* TemplateTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TemplateTableView.h; sourceTree = "<group>"; };
 		580021B023385F5A00194F1D /* TemplateTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TemplateTableView.m; sourceTree = "<group>"; };
+		58023742234DBB4E003D14DC /* EditPictureView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditPictureView.h; sourceTree = "<group>"; };
+		58023743234DBB4E003D14DC /* EditPictureView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditPictureView.m; sourceTree = "<group>"; };
 		581CFFBC233B016C0024AB0C /* CitadInpudView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadInpudView.h; sourceTree = "<group>"; };
 		581CFFBD233B016C0024AB0C /* CitadInpudView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadInpudView.m; sourceTree = "<group>"; };
 		581CFFBF233B06B90024AB0C /* DetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailView.h; sourceTree = "<group>"; };
@@ -130,6 +151,8 @@
 		587C6D8C2333209300F92252 /* ChangeCardStatusView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardStatusView.m; sourceTree = "<group>"; };
 		588652A023293D2D00E4BBC3 /* CitadConfirmScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CitadConfirmScreen.h; sourceTree = "<group>"; };
 		588652A123293D2D00E4BBC3 /* CitadConfirmScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CitadConfirmScreen.m; sourceTree = "<group>"; };
+		588EC76E2341D88F00E742A7 /* ChangeCapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCapView.h; sourceTree = "<group>"; };
+		588EC76F2341D88F00E742A7 /* ChangeCapView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCapView.m; sourceTree = "<group>"; };
 		589854B0232A727A0008316A /* MenuView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuView.h; sourceTree = "<group>"; };
 		589854B1232A727A0008316A /* MenuView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuView.m; sourceTree = "<group>"; };
 		589854B4232A78FC0008316A /* MapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MapView.h; sourceTree = "<group>"; };
@@ -159,6 +182,10 @@
 		589CE15B23267EE100F36B99 /* AccountList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountList.m; sourceTree = "<group>"; };
 		589CE15D232697F300F36B99 /* AccountType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountType.h; sourceTree = "<group>"; };
 		589CE15E232697F300F36B99 /* AccountType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AccountType.m; sourceTree = "<group>"; };
+		58A02D162344416300BA7E88 /* BasicDetailsView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicDetailsView.h; sourceTree = "<group>"; };
+		58A02D172344416300BA7E88 /* BasicDetailsView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BasicDetailsView.m; sourceTree = "<group>"; };
+		58A02D192344508500BA7E88 /* PersonalView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PersonalView.h; sourceTree = "<group>"; };
+		58A02D1A2344508500BA7E88 /* PersonalView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PersonalView.m; sourceTree = "<group>"; };
 		58A4705B2319017C00AD90E2 /* 1_iOSVietBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 1_iOSVietBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58A4705E2319017C00AD90E2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		58A4705F2319017C00AD90E2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -185,7 +212,7 @@
 		58B7AD6D232B37BD00DD1741 /* PatternView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PatternView.h; sourceTree = "<group>"; };
 		58B7AD73232B37ED00DD1741 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		58B7AD74232B37ED00DD1741 /* Utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
-		58B7AD7B232B858B00DD1741 /* UIViewController+LCModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LCModal.h"; sourceTree = "<group>"; };
+		58B7AD7B232B858B00DD1741 /* UIViewController+LCModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LCModal.h"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
 		58B7AD7C232B858B00DD1741 /* UIViewController+LCModal.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LCModal.m"; sourceTree = "<group>"; };
 		58BAE704233C4D3B00FB7365 /* PayBillView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillView.h; sourceTree = "<group>"; };
 		58BAE705233C4D3B00FB7365 /* PayBillView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillView.m; sourceTree = "<group>"; };
@@ -193,6 +220,12 @@
 		58BAE70B233C6BE400FB7365 /* PayBillViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillViewCell.m; sourceTree = "<group>"; };
 		58BAE70D233CA3AA00FB7365 /* PayBillInputView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PayBillInputView.h; sourceTree = "<group>"; };
 		58BAE70E233CA3AA00FB7365 /* PayBillInputView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PayBillInputView.m; sourceTree = "<group>"; };
+		58BB497D2342FE8A0015B917 /* OfferView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferView.h; sourceTree = "<group>"; };
+		58BB497E2342FE8A0015B917 /* OfferView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferView.m; sourceTree = "<group>"; };
+		58BB49802342FF030015B917 /* OfferCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferCell.h; sourceTree = "<group>"; };
+		58BB49812342FF030015B917 /* OfferCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferCell.m; sourceTree = "<group>"; };
+		58BB498323430C9B0015B917 /* OfferSignView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OfferSignView.h; sourceTree = "<group>"; };
+		58BB498423430C9B0015B917 /* OfferSignView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OfferSignView.m; sourceTree = "<group>"; };
 		58C04B3B2339C84F00CE569F /* DBTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBTableViewController.h; sourceTree = "<group>"; };
 		58C04B3C2339C84F00CE569F /* DBTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBTableViewController.m; sourceTree = "<group>"; };
 		58C21F1723210CB400AD57B3 /* PinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PinViewController.h; sourceTree = "<group>"; };
@@ -208,7 +241,22 @@
 		58C5B503232606370034519D /* DataAccountViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAccountViewController.m; sourceTree = "<group>"; };
 		58C6C81D2323524500069179 /* SMSPasswordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMSPasswordViewController.h; sourceTree = "<group>"; };
 		58C6C81E2323524500069179 /* SMSPasswordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SMSPasswordViewController.m; sourceTree = "<group>"; };
+		58D25C5C234C235A00C30B67 /* Secondary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Secondary.storyboard; sourceTree = "<group>"; };
+		58D25C5F234C23D300C30B67 /* EditProfileView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EditProfileView.h; sourceTree = "<group>"; };
+		58D25C60234C23D300C30B67 /* EditProfileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EditProfileView.m; sourceTree = "<group>"; };
+		58D25C62234C46F900C30B67 /* TransactionView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionView.h; sourceTree = "<group>"; };
+		58D25C63234C46F900C30B67 /* TransactionView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionView.m; sourceTree = "<group>"; };
+		58D25C65234C4C8000C30B67 /* TransactionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionCell.h; sourceTree = "<group>"; };
+		58D25C66234C4C8000C30B67 /* TransactionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionCell.m; sourceTree = "<group>"; };
+		58D25C6D234C7A4D00C30B67 /* TransactionDetailView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransactionDetailView.h; sourceTree = "<group>"; };
+		58D25C6E234C7A4D00C30B67 /* TransactionDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionDetailView.m; sourceTree = "<group>"; };
 		58D48F52232C7C1E00407AE4 /* ShowDetailScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowDetailScreen.xib; sourceTree = "<group>"; };
+		58D6EBB423448A7900AA10BC /* ResidenceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResidenceView.h; sourceTree = "<group>"; };
+		58D6EBB523448A7900AA10BC /* ResidenceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResidenceView.m; sourceTree = "<group>"; };
+		58D6EBBA234498AC00AA10BC /* ItemView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ItemView.h; sourceTree = "<group>"; };
+		58D6EBBB234498AC00AA10BC /* ItemView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ItemView.m; sourceTree = "<group>"; };
+		58D6EBBD2344A44B00AA10BC /* ConfirmView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmView.h; sourceTree = "<group>"; };
+		58D6EBBE2344A44B00AA10BC /* ConfirmView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmView.m; sourceTree = "<group>"; };
 		58D751B52321FE560011E7F3 /* LoginPinViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginPinViewController.h; sourceTree = "<group>"; };
 		58D751B62321FE560011E7F3 /* LoginPinViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginPinViewController.m; sourceTree = "<group>"; };
 		58D751BF232232B00011E7F3 /* CardTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTableViewController.h; sourceTree = "<group>"; };
@@ -223,6 +271,13 @@
 		58E7DB5D2331DF74006495D4 /* CardDetailView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardDetailView.m; sourceTree = "<group>"; };
 		58E7DB5F23320767006495D4 /* CardCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardCell.h; sourceTree = "<group>"; };
 		58E7DB6023320767006495D4 /* CardCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardCell.m; sourceTree = "<group>"; };
+		58EAF403234AE3A500C7E08C /* MenuLeftView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuLeftView.h; sourceTree = "<group>"; };
+		58EAF404234AE3A500C7E08C /* MenuLeftView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuLeftView.m; sourceTree = "<group>"; };
+		58EAF406234B0CE500C7E08C /* MenuListCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuListCell.h; sourceTree = "<group>"; };
+		58EAF407234B0CE500C7E08C /* MenuListCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuListCell.m; sourceTree = "<group>"; };
+		58EE2C0E234D7CDE00905D86 /* ProfileView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileView.h; sourceTree = "<group>"; };
+		58EE2C0F234D7CDE00905D86 /* ProfileView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileView.m; sourceTree = "<group>"; };
+		58EE2C14234DB73000905D86 /* EditProfileDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditProfileDetailView.m; sourceTree = "<group>"; };
 		58EEEBB5232754CE00200787 /* CustomAccountTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomAccountTableViewCell.h; sourceTree = "<group>"; };
 		58EEEBB6232754CE00200787 /* CustomAccountTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomAccountTableViewCell.m; sourceTree = "<group>"; };
 		58EEEBB923278C4800200787 /* AccountDetail.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AccountDetail.h; sourceTree = "<group>"; };
@@ -286,8 +341,29 @@
 				58D8CFCD232BCE05008AC584 /* CitadSignScreen.m */,
 				581CFFBC233B016C0024AB0C /* CitadInpudView.h */,
 				581CFFBD233B016C0024AB0C /* CitadInpudView.m */,
+				58D25C62234C46F900C30B67 /* TransactionView.h */,
+				58D25C63234C46F900C30B67 /* TransactionView.m */,
+				58D25C65234C4C8000C30B67 /* TransactionCell.h */,
+				58D25C66234C4C8000C30B67 /* TransactionCell.m */,
+				58D25C6D234C7A4D00C30B67 /* TransactionDetailView.h */,
+				58D25C6E234C7A4D00C30B67 /* TransactionDetailView.m */,
 			);
 			path = Transaction;
+			sourceTree = "<group>";
+		};
+		588EC76D2341D83900E742A7 /* Offer */ = {
+			isa = PBXGroup;
+			children = (
+				588EC76E2341D88F00E742A7 /* ChangeCapView.h */,
+				588EC76F2341D88F00E742A7 /* ChangeCapView.m */,
+				58BB497D2342FE8A0015B917 /* OfferView.h */,
+				58BB497E2342FE8A0015B917 /* OfferView.m */,
+				58BB49802342FF030015B917 /* OfferCell.h */,
+				58BB49812342FF030015B917 /* OfferCell.m */,
+				58BB498323430C9B0015B917 /* OfferSignView.h */,
+				58BB498423430C9B0015B917 /* OfferSignView.m */,
+			);
+			path = Offer;
 			sourceTree = "<group>";
 		};
 		589854AF232A72610008316A /* Menu */ = {
@@ -295,6 +371,10 @@
 			children = (
 				589854B0232A727A0008316A /* MenuView.h */,
 				589854B1232A727A0008316A /* MenuView.m */,
+				58EAF403234AE3A500C7E08C /* MenuLeftView.h */,
+				58EAF404234AE3A500C7E08C /* MenuLeftView.m */,
+				58EAF406234B0CE500C7E08C /* MenuListCell.h */,
+				58EAF407234B0CE500C7E08C /* MenuListCell.m */,
 			);
 			path = Menu;
 			sourceTree = "<group>";
@@ -360,9 +440,27 @@
 			path = UnlockMethod;
 			sourceTree = "<group>";
 		};
+		58A02D152344414500BA7E88 /* Technical */ = {
+			isa = PBXGroup;
+			children = (
+				58A02D162344416300BA7E88 /* BasicDetailsView.h */,
+				58A02D172344416300BA7E88 /* BasicDetailsView.m */,
+				58A02D192344508500BA7E88 /* PersonalView.h */,
+				58A02D1A2344508500BA7E88 /* PersonalView.m */,
+				58D6EBB423448A7900AA10BC /* ResidenceView.h */,
+				58D6EBB523448A7900AA10BC /* ResidenceView.m */,
+				58D6EBBA234498AC00AA10BC /* ItemView.h */,
+				58D6EBBB234498AC00AA10BC /* ItemView.m */,
+				58D6EBBD2344A44B00AA10BC /* ConfirmView.h */,
+				58D6EBBE2344A44B00AA10BC /* ConfirmView.m */,
+			);
+			path = Technical;
+			sourceTree = "<group>";
+		};
 		58A470522319017C00AD90E2 = {
 			isa = PBXGroup;
 			children = (
+				58EE2C14234DB73000905D86 /* EditProfileDetailView.m */,
 				58A4705D2319017C00AD90E2 /* 1_iOSVietBank */,
 				589854BB232A85A50008316A /* SWRevealViewController */,
 				58A4705C2319017C00AD90E2 /* Products */,
@@ -383,8 +481,12 @@
 		58A4705D2319017C00AD90E2 /* 1_iOSVietBank */ = {
 			isa = PBXGroup;
 			children = (
+				58D25C5E234C23B100C30B67 /* Profile */,
 				58DCB2C9232F1F2600F63C99 /* Assets.xcassets */,
 				58A470642319017C00AD90E2 /* Main.storyboard */,
+				58D25C5C234C235A00C30B67 /* Secondary.storyboard */,
+				58A02D152344414500BA7E88 /* Technical */,
+				588EC76D2341D83900E742A7 /* Offer */,
 				58BAE703233C4D1C00FB7365 /* PayBill */,
 				58E7DB582331BF24006495D4 /* Card */,
 				589854BF232A89AE0008316A /* Activation */,
@@ -494,6 +596,19 @@
 				58C6C81E2323524500069179 /* SMSPasswordViewController.m */,
 			);
 			path = SMSPassword;
+			sourceTree = "<group>";
+		};
+		58D25C5E234C23B100C30B67 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				58D25C5F234C23D300C30B67 /* EditProfileView.h */,
+				58D25C60234C23D300C30B67 /* EditProfileView.m */,
+				58EE2C0E234D7CDE00905D86 /* ProfileView.h */,
+				58EE2C0F234D7CDE00905D86 /* ProfileView.m */,
+				58023742234DBB4E003D14DC /* EditPictureView.h */,
+				58023743234DBB4E003D14DC /* EditPictureView.m */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 		58D751B22321FADA0011E7F3 /* LoginID */ = {
@@ -740,6 +855,7 @@
 				58A4706E2319017E00AD90E2 /* LaunchScreen.storyboard in Resources */,
 				58D48F53232C7C1E00407AE4 /* ShowDetailScreen.xib in Resources */,
 				58C5B4FC2325E57A0034519D /* DataAccount.plist in Resources */,
+				58D25C5D234C235A00C30B67 /* Secondary.storyboard in Resources */,
 				58A470662319017C00AD90E2 /* Main.storyboard in Resources */,
 				58DCB2CA232F1F2800F63C99 /* Assets.xcassets in Resources */,
 				589C39A22320E514001D30E2 /* CenterView.xib in Resources */,
@@ -773,7 +889,9 @@
 				58B7AD7D232B858B00DD1741 /* UIViewController+LCModal.m in Sources */,
 				58ACE97A2338B2A900747B76 /* ChangeCardLimitCodeView.m in Sources */,
 				58C48AEF233D9E8100175AA9 /* PayBillSignView.m in Sources */,
+				58D25C6F234C7A4D00C30B67 /* TransactionDetailView.m in Sources */,
 				58728B02232A9E4700444D3A /* ColorViewController.m in Sources */,
+				58D6EBB623448A7900AA10BC /* ResidenceView.m in Sources */,
 				587BBD572322676A007D14E7 /* AccountTableViewController.m in Sources */,
 				58728B04232A9E4700444D3A /* MenuViewController.m in Sources */,
 				58EEEBC02327F80D00200787 /* ShowDetailScreen.m in Sources */,
@@ -783,42 +901,53 @@
 				58380824233385E800A5E4DD /* NewPinView.m in Sources */,
 				580021B123385F5A00194F1D /* TemplateTableView.m in Sources */,
 				58E7DB5B2331BF85006495D4 /* CardListView.m in Sources */,
+				58D6EBBF2344A44B00AA10BC /* ConfirmView.m in Sources */,
 				589CE15C23267EE100F36B99 /* AccountList.m in Sources */,
 				58D751C1232232B00011E7F3 /* CardTableViewController.m in Sources */,
 				58A470632319017C00AD90E2 /* ViewController.m in Sources */,
 				58EEEBBB23278C4800200787 /* AccountDetail.m in Sources */,
+				58EAF408234B0CE500C7E08C /* MenuListCell.m in Sources */,
 				58E7DB6123320767006495D4 /* CardCell.m in Sources */,
 				58EEEBD42328B1FB00200787 /* DBAccountCustomCellTableViewCell.m in Sources */,
 				588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */,
 				58A470602319017C00AD90E2 /* AppDelegate.m in Sources */,
 				58EEEBD72328D2D100200787 /* DataAccountTableViewController.m in Sources */,
 				58D8CFCE232BCE05008AC584 /* CitadSignScreen.m in Sources */,
+				58D25C67234C4C8000C30B67 /* TransactionCell.m in Sources */,
 				58728B03232A9E4700444D3A /* MapViewController.m in Sources */,
 				58EEEBCF2328B0EE00200787 /* DBAccount.m in Sources */,
 				58C6C81F2323524500069179 /* SMSPasswordViewController.m in Sources */,
 				589C39AC2320FC81001D30E2 /* UnlockMethodViewController.m in Sources */,
 				581CFFC7233B48020024AB0C /* ChangeCardStatusSignView.m in Sources */,
 				589C39982320C771001D30E2 /* LoginMethodViewController.m in Sources */,
+				58A02D182344416300BA7E88 /* BasicDetailsView.m in Sources */,
 				58A470712319017E00AD90E2 /* main.m in Sources */,
 				589854B6232A78FC0008316A /* MapView.m in Sources */,
 				58EEEBC5232884A300200787 /* DashBoardViewController.m in Sources */,
 				58A470692319017C00AD90E2 /* __iOSVietBank.xcdatamodeld in Sources */,
+				58BB49822342FF030015B917 /* OfferCell.m in Sources */,
+				58D25C64234C46F900C30B67 /* TransactionView.m in Sources */,
 				587C6D8D2333209300F92252 /* ChangeCardStatusView.m in Sources */,
 				58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */,
+				58BB497F2342FE8A0015B917 /* OfferView.m in Sources */,
 				58F20EC3232F94DA0081B86D /* DBView.m in Sources */,
 				5838081E233371CC00A5E4DD /* SignCardStatusView.m in Sources */,
 				58D751B72321FE560011E7F3 /* LoginPinViewController.m in Sources */,
 				581CFFC4233B40E80024AB0C /* ChangeCardLimitSignView.m in Sources */,
+				58EE2C15234DB73000905D86 /* EditProfileDetailView.m in Sources */,
+				58BB498523430C9B0015B917 /* OfferSignView.m in Sources */,
 				589854C3232A89D00008316A /* ActivationView.m in Sources */,
 				58B7AD70232B37BD00DD1741 /* PatternView.m in Sources */,
 				589854BE232A85A60008316A /* SWRevealViewController.m in Sources */,
 				5838082A2333959200A5E4DD /* ChangeCardLimitView.m in Sources */,
 				581CFFC1233B06B90024AB0C /* DetailView.m in Sources */,
 				589C39A82320E57F001D30E2 /* CenterView.m in Sources */,
+				58EE2C10234D7CDE00905D86 /* ProfileView.m in Sources */,
 				58B7AD75232B37ED00DD1741 /* Utils.m in Sources */,
 				58B7AD72232B37BD00DD1741 /* NodeView.m in Sources */,
 				58C21F1923210CB400AD57B3 /* PinViewController.m in Sources */,
 				58C04B3D2339C84F00CE569F /* DBTableViewController.m in Sources */,
+				58EAF405234AE3A500C7E08C /* MenuLeftView.m in Sources */,
 				58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */,
 				58BAE70F233CA3AA00FB7365 /* PayBillInputView.m in Sources */,
 				58EEEBB7232754CE00200787 /* CustomAccountTableViewCell.m in Sources */,
@@ -826,12 +955,17 @@
 				589CE15923267EC400F36B99 /* AccountData.m in Sources */,
 				589CE15F232697F300F36B99 /* AccountType.m in Sources */,
 				58B7AD6F232B37BD00DD1741 /* DrawingView.m in Sources */,
+				58D25C61234C23D300C30B67 /* EditProfileView.m in Sources */,
 				581CFFBE233B016C0024AB0C /* CitadInpudView.m in Sources */,
 				58BAE70C233C6BE400FB7365 /* PayBillViewCell.m in Sources */,
 				5898A9C12337203700DFB043 /* InfoCell.m in Sources */,
 				58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */,
+				58A02D1B2344508500BA7E88 /* PersonalView.m in Sources */,
 				58C48AF2233DA6C600175AA9 /* PayBillStatusView.m in Sources */,
 				58BAE706233C4D3B00FB7365 /* PayBillView.m in Sources */,
+				58D6EBBC234498AC00AA10BC /* ItemView.m in Sources */,
+				58023744234DBB4E003D14DC /* EditPictureView.m in Sources */,
+				588EC7702341D88F00E742A7 /* ChangeCapView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

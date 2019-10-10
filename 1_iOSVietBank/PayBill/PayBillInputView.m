@@ -34,29 +34,29 @@
     arrayAccount = @[@"MY CURRENT ACCOUNT", @"MY FUTURE ACCOUNT", @"MY PAST ACCOUNT"];
     self.pickerAccount.hidden = YES;
     
-    self.pickerAccount.layer.cornerRadius = 20;
-    self.pickerAccount.layer.shadowRadius = 20;
+    self.pickerAccount.layer.cornerRadius = 10;
+    self.pickerAccount.layer.shadowRadius = 10;
     self.pickerAccount.layer.shadowColor =[UIColor colorWithRed:176.f/255.f green:199.f/255.f blue:226.f/255.f alpha:1.f].CGColor;
     self.pickerAccount.layer.shadowOffset = CGSizeMake(5, 5);
     self.pickerAccount.layer.shadowOpacity = 0.9f;
     self.pickerAccount.layer.masksToBounds = NO;
     
-    self.view1.layer.cornerRadius = 20;
-    self.view1.layer.shadowRadius = 20;
+    self.view1.layer.cornerRadius = 5;
+    self.view1.layer.shadowRadius = 5;
     self.view1.layer.shadowColor =[UIColor colorWithRed:176.f/255.f green:199.f/255.f blue:226.f/255.f alpha:1.f].CGColor;
     self.view1.layer.shadowOffset = CGSizeMake(5, 5);
     self.view1.layer.shadowOpacity = 0.9f;
     self.view1.layer.masksToBounds = NO;
     
-    self.view2.layer.cornerRadius = 20;
-    self.view2.layer.shadowRadius = 20;
+    self.view2.layer.cornerRadius = 5;
+    self.view2.layer.shadowRadius = 5;
     self.view2.layer.shadowColor =[UIColor colorWithRed:176.f/255.f green:199.f/255.f blue:226.f/255.f alpha:1.f].CGColor;
     self.view2.layer.shadowOffset = CGSizeMake(5, 5);
     self.view2.layer.shadowOpacity = 0.9f;
     self.view2.layer.masksToBounds = NO;
     
-    self.view3.layer.cornerRadius = 20;
-    self.view3.layer.shadowRadius = 20;
+    self.view3.layer.cornerRadius = 5;
+    self.view3.layer.shadowRadius = 5;
     self.view3.layer.shadowColor =[UIColor colorWithRed:176.f/255.f green:199.f/255.f blue:226.f/255.f alpha:1.f].CGColor;
     self.view3.layer.shadowOffset = CGSizeMake(5, 5);
     self.view3.layer.shadowOpacity = 0.9f;

@@ -7,6 +7,7 @@
 //
 
 #import "PatternVController.h"
+#import "../Offer/ChangeCapView.h"
 #import "PatternView.h"
 #import "PatternManager.h"
 
@@ -314,8 +315,8 @@ typedef NS_ENUM(NSUInteger, PatternState) {
 
 -(void)completedAnimations {
     NSLog(@"done animation");
-    _loginView = [self.storyboard instantiateViewControllerWithIdentifier:@"loginViewControllerID"];
-    [self presentViewController:_loginView animated:YES completion:nil];
+    ChangeCapView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"ChangeCapView"];
+    [self presentViewController:newView animated:YES completion:nil];
 //    [self.delegate unlockedPattern];
 }
 

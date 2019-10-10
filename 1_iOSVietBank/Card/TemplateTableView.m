@@ -7,6 +7,7 @@
 //
 
 #import "TemplateTableView.h"
+#import "CardListView.h"
 
 @interface TemplateTableView ()
 @property (strong, nonatomic) IBOutlet UITableViewCell *cell1;
@@ -19,7 +20,9 @@
 
 @implementation TemplateTableView
 - (IBAction)dismissView:(id)sender {
-    [self dismissViewControllerAnimated:YES completion:nil];
+    
+    CardListView * newView = [self.storyboard instantiateViewControllerWithIdentifier:@"CardListView"];
+    [self presentViewController:newView animated:YES completion:nil];
 }
 
 - (void)viewDidLoad {

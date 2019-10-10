@@ -6,10 +6,9 @@
 //  Copyright © 2019 Lực Nguyễn . All rights reserved.
 //
 
-
-
-#import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+
 
 @interface UIViewController (LCModal)
 
@@ -17,3 +16,5 @@
 - (void)lc_dismissViewControllerWithCompletion:(void (^)(void))completion;
 
 @end
+
+
