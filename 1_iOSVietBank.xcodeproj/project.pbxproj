@@ -18,6 +18,10 @@
 		58380824233385E800A5E4DD /* NewPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58380823233385E800A5E4DD /* NewPinView.m */; };
 		583808272333877300A5E4DD /* ConfirmNewPinView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583808262333877300A5E4DD /* ConfirmNewPinView.m */; };
 		5838082A2333959200A5E4DD /* ChangeCardLimitView.m in Sources */ = {isa = PBXBuildFile; fileRef = 583808292333959200A5E4DD /* ChangeCardLimitView.m */; };
+		5861EED423505A2300DD5FE5 /* ResultDepositView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861EED323505A2300DD5FE5 /* ResultDepositView.m */; };
+		5861EED723505C5700DD5FE5 /* ConfirmDepositView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861EED623505C5700DD5FE5 /* ConfirmDepositView.m */; };
+		5861EEDA2350629400DD5FE5 /* TerminalDepositView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861EED92350629400DD5FE5 /* TerminalDepositView.m */; };
+		5861EEDD2350657B00DD5FE5 /* SignTerminalDepositView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5861EEDC2350657B00DD5FE5 /* SignTerminalDepositView.m */; };
 		58728B02232A9E4700444D3A /* ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58728AFD232A9E4300444D3A /* ColorViewController.m */; };
 		58728B03232A9E4700444D3A /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58728AFF232A9E4500444D3A /* MapViewController.m */; };
 		58728B04232A9E4700444D3A /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58728B00232A9E4600444D3A /* MenuViewController.m */; };
@@ -97,6 +101,8 @@
 		58EEEBD42328B1FB00200787 /* DBAccountCustomCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBD32328B1FB00200787 /* DBAccountCustomCellTableViewCell.m */; };
 		58EEEBD72328D2D100200787 /* DataAccountTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */; };
 		58F20EC3232F94DA0081B86D /* DBView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58F20EC2232F94DA0081B86D /* DBView.m */; };
+		58FD9A3A2350188B00F5ED77 /* TermDepositView.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD9A392350188B00F5ED77 /* TermDepositView.m */; };
+		58FD9A3D2350258000F5ED77 /* CreateTermDeposit.m in Sources */ = {isa = PBXBuildFile; fileRef = 58FD9A3C2350258000F5ED77 /* CreateTermDeposit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -139,6 +145,14 @@
 		583808262333877300A5E4DD /* ConfirmNewPinView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmNewPinView.m; sourceTree = "<group>"; };
 		583808282333959200A5E4DD /* ChangeCardLimitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChangeCardLimitView.h; sourceTree = "<group>"; };
 		583808292333959200A5E4DD /* ChangeCardLimitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChangeCardLimitView.m; sourceTree = "<group>"; };
+		5861EED223505A2300DD5FE5 /* ResultDepositView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ResultDepositView.h; sourceTree = "<group>"; };
+		5861EED323505A2300DD5FE5 /* ResultDepositView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ResultDepositView.m; sourceTree = "<group>"; };
+		5861EED523505C5700DD5FE5 /* ConfirmDepositView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConfirmDepositView.h; sourceTree = "<group>"; };
+		5861EED623505C5700DD5FE5 /* ConfirmDepositView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConfirmDepositView.m; sourceTree = "<group>"; };
+		5861EED82350629400DD5FE5 /* TerminalDepositView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TerminalDepositView.h; sourceTree = "<group>"; };
+		5861EED92350629400DD5FE5 /* TerminalDepositView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TerminalDepositView.m; sourceTree = "<group>"; };
+		5861EEDB2350657B00DD5FE5 /* SignTerminalDepositView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SignTerminalDepositView.h; sourceTree = "<group>"; };
+		5861EEDC2350657B00DD5FE5 /* SignTerminalDepositView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SignTerminalDepositView.m; sourceTree = "<group>"; };
 		58728AFC232A9E4300444D3A /* ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorViewController.h; sourceTree = "<group>"; };
 		58728AFD232A9E4300444D3A /* ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorViewController.m; sourceTree = "<group>"; };
 		58728AFE232A9E4400444D3A /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
@@ -296,6 +310,10 @@
 		58EEEBD62328D2D100200787 /* DataAccountTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataAccountTableViewController.m; sourceTree = "<group>"; };
 		58F20EC1232F94DA0081B86D /* DBView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBView.h; sourceTree = "<group>"; };
 		58F20EC2232F94DA0081B86D /* DBView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBView.m; sourceTree = "<group>"; };
+		58FD9A382350188B00F5ED77 /* TermDepositView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TermDepositView.h; sourceTree = "<group>"; };
+		58FD9A392350188B00F5ED77 /* TermDepositView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TermDepositView.m; sourceTree = "<group>"; };
+		58FD9A3B2350258000F5ED77 /* CreateTermDeposit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreateTermDeposit.h; sourceTree = "<group>"; };
+		58FD9A3C2350258000F5ED77 /* CreateTermDeposit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreateTermDeposit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -481,10 +499,11 @@
 		58A4705D2319017C00AD90E2 /* 1_iOSVietBank */ = {
 			isa = PBXGroup;
 			children = (
-				58D25C5E234C23B100C30B67 /* Profile */,
 				58DCB2C9232F1F2600F63C99 /* Assets.xcassets */,
 				58A470642319017C00AD90E2 /* Main.storyboard */,
 				58D25C5C234C235A00C30B67 /* Secondary.storyboard */,
+				58FD9A352350164200F5ED77 /* Deposit */,
+				58D25C5E234C23B100C30B67 /* Profile */,
 				58A02D152344414500BA7E88 /* Technical */,
 				588EC76D2341D83900E742A7 /* Offer */,
 				58BAE703233C4D1C00FB7365 /* PayBill */,
@@ -737,6 +756,25 @@
 			path = DarhBoardAccounts;
 			sourceTree = "<group>";
 		};
+		58FD9A352350164200F5ED77 /* Deposit */ = {
+			isa = PBXGroup;
+			children = (
+				58FD9A382350188B00F5ED77 /* TermDepositView.h */,
+				58FD9A392350188B00F5ED77 /* TermDepositView.m */,
+				58FD9A3B2350258000F5ED77 /* CreateTermDeposit.h */,
+				58FD9A3C2350258000F5ED77 /* CreateTermDeposit.m */,
+				5861EED223505A2300DD5FE5 /* ResultDepositView.h */,
+				5861EED323505A2300DD5FE5 /* ResultDepositView.m */,
+				5861EED523505C5700DD5FE5 /* ConfirmDepositView.h */,
+				5861EED623505C5700DD5FE5 /* ConfirmDepositView.m */,
+				5861EED82350629400DD5FE5 /* TerminalDepositView.h */,
+				5861EED92350629400DD5FE5 /* TerminalDepositView.m */,
+				5861EEDB2350657B00DD5FE5 /* SignTerminalDepositView.h */,
+				5861EEDC2350657B00DD5FE5 /* SignTerminalDepositView.m */,
+			);
+			path = Deposit;
+			sourceTree = "<group>";
+		};
 		B518DB4454941A542B1C5A86 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -910,6 +948,7 @@
 				58E7DB6123320767006495D4 /* CardCell.m in Sources */,
 				58EEEBD42328B1FB00200787 /* DBAccountCustomCellTableViewCell.m in Sources */,
 				588652A223293D2D00E4BBC3 /* CitadConfirmScreen.m in Sources */,
+				58FD9A3A2350188B00F5ED77 /* TermDepositView.m in Sources */,
 				58A470602319017C00AD90E2 /* AppDelegate.m in Sources */,
 				58EEEBD72328D2D100200787 /* DataAccountTableViewController.m in Sources */,
 				58D8CFCE232BCE05008AC584 /* CitadSignScreen.m in Sources */,
@@ -929,6 +968,7 @@
 				58D25C64234C46F900C30B67 /* TransactionView.m in Sources */,
 				587C6D8D2333209300F92252 /* ChangeCardStatusView.m in Sources */,
 				58EEEBC92328AA7B00200787 /* DBAccountViewController.m in Sources */,
+				5861EEDD2350657B00DD5FE5 /* SignTerminalDepositView.m in Sources */,
 				58BB497F2342FE8A0015B917 /* OfferView.m in Sources */,
 				58F20EC3232F94DA0081B86D /* DBView.m in Sources */,
 				5838081E233371CC00A5E4DD /* SignCardStatusView.m in Sources */,
@@ -950,14 +990,17 @@
 				58EAF405234AE3A500C7E08C /* MenuLeftView.m in Sources */,
 				58C21F1D23210CF100AD57B3 /* PatternViewController.m in Sources */,
 				58BAE70F233CA3AA00FB7365 /* PayBillInputView.m in Sources */,
+				5861EED423505A2300DD5FE5 /* ResultDepositView.m in Sources */,
 				58EEEBB7232754CE00200787 /* CustomAccountTableViewCell.m in Sources */,
 				58B7AD71232B37BD00DD1741 /* PatternManager.m in Sources */,
 				589CE15923267EC400F36B99 /* AccountData.m in Sources */,
 				589CE15F232697F300F36B99 /* AccountType.m in Sources */,
 				58B7AD6F232B37BD00DD1741 /* DrawingView.m in Sources */,
 				58D25C61234C23D300C30B67 /* EditProfileView.m in Sources */,
+				5861EED723505C5700DD5FE5 /* ConfirmDepositView.m in Sources */,
 				581CFFBE233B016C0024AB0C /* CitadInpudView.m in Sources */,
 				58BAE70C233C6BE400FB7365 /* PayBillViewCell.m in Sources */,
+				58FD9A3D2350258000F5ED77 /* CreateTermDeposit.m in Sources */,
 				5898A9C12337203700DFB043 /* InfoCell.m in Sources */,
 				58E7DB5E2331DF74006495D4 /* CardDetailView.m in Sources */,
 				58A02D1B2344508500BA7E88 /* PersonalView.m in Sources */,
@@ -966,6 +1009,7 @@
 				58D6EBBC234498AC00AA10BC /* ItemView.m in Sources */,
 				58023744234DBB4E003D14DC /* EditPictureView.m in Sources */,
 				588EC7702341D88F00E742A7 /* ChangeCapView.m in Sources */,
+				5861EEDA2350629400DD5FE5 /* TerminalDepositView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -14,10 +14,13 @@
 #import "../Profile/EditProfileView.h"
 #import "../Transaction/TransactionView.h"
 #import "../Profile/ProfileView.h"
+#import "../Deposit/TermDepositView.h"
 
 @interface MenuLeftView () <UITableViewDataSource, UITableViewDelegate>
 {
     NSArray * arrMenu;
+    NSString * storyboardName;
+    UIStoryboard * storyboard;
 }
 
 @end
@@ -27,7 +30,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    arrMenu = @[@"Account",@"Bill Payment",@"Transaction",@"Offer"];
+    arrMenu = @[@"Account",@"Bill Payment",@"Transaction",@"Offer",@"Deposit"];
+    storyboardName = @"Secondary";
+    storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
 }
 
 
@@ -64,10 +69,6 @@
         }
         case 2:
         {
-            NSString * storyboardName = @"Secondary";
-            UIStoryboard * storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
-            
-            
             TransactionView * tranView = [storyboard instantiateViewControllerWithIdentifier:@"TransactionView"];
             [self presentViewController:tranView animated:YES completion:nil];
             break;
@@ -76,6 +77,13 @@
         {
             OfferView * offView = [self.storyboard instantiateViewControllerWithIdentifier:@"OfferView"];
             [self presentViewController:offView animated:true completion:nil];
+            break;
+        }
+        case 4:
+        {
+            TermDepositView * depositView = [storyboard instantiateViewControllerWithIdentifier:@"TermDepositView"];
+            [self presentViewController:depositView animated:true completion:nil];
+            break;
         }
     }
 }
@@ -106,9 +114,7 @@
 }
 
 - (void) changeView {
-    NSString * storyboardName = @"Secondary";
     NSString * viewName = @"ProfileView";
-    UIStoryboard * storyboard = [UIStoryboard storyboardWithName:storyboardName bundle:nil];
     ProfileView * profileView = [storyboard instantiateViewControllerWithIdentifier:viewName];
     [self presentViewController:profileView animated:true completion:nil];
 }

@@ -28,6 +28,21 @@
 }
 
 - (IBAction)showLess:(id)sender {
+    self.view2.hidden = true;
+}
+
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event
+{
+    [self.view endEditing:true];
+}
+- (IBAction)dismissView:(id)sender {
+    
+    [self dismissViewControllerAnimated:true completion:nil];
+}
+- (IBAction)repeatPayment:(id)sender {
     
 }
+
+
+
 @end
